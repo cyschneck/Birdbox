@@ -1,6 +1,5 @@
 # CSCI-3308-Group-Project
-[[https://github.com/Xuis/CSCI-3308-Group-Project/pics_readme/icon_readme.PNG|alt=icon]]
-
+![icon_readme](https://cloud.githubusercontent.com/assets/22159116/18973488/e1f5a5a0-865a-11e6-893b-ad6e79beceb7.PNG)
 ## Team Name
 	Nirdy
 
@@ -32,8 +31,11 @@
 	fill out for curated submissions (based on the moderator's discretion). This will include the ability
 	to pin a user's location for identification to count and collect sightings.
 
-	[[https://github.com/Xuis/CSCI-3308-Group-Project/pics_readme/description_readme.PNG|alt=description]]
-	[[https://github.com/Xuis/CSCI-3308-Group-Project/pics_readme/website_readme.PNG]]
+![description_readme](https://cloud.githubusercontent.com/assets/22159116/18973487/e1dff67e-865a-11e6-8672-971773fb4296.PNG)
+	
+	Example UI for selection options
+	
+![website_readme](https://cloud.githubusercontent.com/assets/22159116/18973489/e1f7116a-865a-11e6-8185-c57392803f75.PNG)
 
 ## Vision Statement
 	To provide competitive user-centered access to avian knowledge
