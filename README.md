@@ -27,14 +27,14 @@
 	the bird, like life span or egg color and behavior along with a picture to identify. In addition, the
 	database will include information about easily confused pairs (like crows and ravens) to help the user
 	to distinguish easily confused birds.
-	Also, with the opportunity to expand the databse, there will be an option for a form that users can
+	Also, with the opportunity to expand the database, there will be an option for a form that users can
 	fill out for curated submissions (based on the moderator's discretion). This will include the ability
 	to pin a user's location for identification to count and collect sightings.
 
 ![description_readme](https://cloud.githubusercontent.com/assets/22159116/18973487/e1dff67e-865a-11e6-8672-971773fb4296.PNG)
-	
+
 	Example UI for selection options
-	
+
 ![website_readme](https://cloud.githubusercontent.com/assets/22159116/18973489/e1f7116a-865a-11e6-8185-c57392803f75.PNG)
 
 ## Vision Statement
@@ -60,7 +60,7 @@
 ## Risk Mitigation Plan
 	1. Keep functionality small and build if time permits
 		-Start locally and add to regionally
-		-Keep search paramters simple
+		-Keep search parameters simple
 		-Add parameters or additional information for each species as time allows
 
 	2. The user entry system is a high priority
@@ -70,7 +70,7 @@
 
 ## Version Control
 	Github
-		Repository: 
+		Repository:
 			github.com/Xuis/CSCI-3308-Group-Project
 		Users:
 			a-hauger, cschneck, Xuis, jocr5685, rapa5960, tontolon22
@@ -80,8 +80,8 @@
 	will allow for quick turn over between each stage. In addition, this will help to ensure that there is
 	enough time to have user input and user testing. There are six members in this group and for each part
 	of the project we will be implementing pair programming. This way for any part of the project there will
-	be at least two people that know what is happening in the code. This will ensure that there will be no 
-	unexpected delays if anyone is sick or has other unexpected oblgiations.
+	be at least two people that know what is happening in the code. This will ensure that there will be no
+	unexpected delays if anyone is sick or has other unexpected obligations.
 
 ## Collaboration Tools
 	Slack: csci-3308.slack.com
