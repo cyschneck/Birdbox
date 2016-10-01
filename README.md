@@ -34,29 +34,29 @@ As it stands, the most traditional method to identify birds is bulky 800+ page p
 
 1. Choosing the best traits to characterize birds with
 
-Needs to be unique enough for the database to properly filter
+  Needs to be unique enough for the database to properly filter
 
-1. Choosing an appropriate scale for the project
+2. Choosing an appropriate scale for the project
 
-There are approximately 10,000 species of birds
+  There are approximately 10,000 species of birds
 
-1. Not having an effect and user-friendly user interface
+3. Not having an effective and user-friendly user interface
 
 ## Risk Mitigation Plan
 
 1. Keep functionality small and build if time permits
 
-Start locally and add to regionally
+  Start locally and add to regionally
 
-Keep search parameters simple
+  Keep search parameters simple
 
-Add parameters or additional information for each species as time allows
+  Add parameters or additional information for each species as time allows
 
-1. The user entry system is a high priority
+2. The user entry system is a high priority
 
-Lots of user testing for each stage
+  Lots of user testing for each stage
 
-1. Contact experts to understand what kind of identifiers they user
+3. Contact experts to understand what kind of identifiers they user
 
 ## Version Control
 
