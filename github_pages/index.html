@@ -16,10 +16,15 @@
 
   <section class="content">
     
-    <div class="search">
-    <input type="text" placeholder="bird species search">
-    <button type="submit">Search</button>
-    </div>
+    <form action ="search.php" method="post">
+
+      <div class="search">
+        <input name="search" type="text" placeholder="Search"/>
+        <button type="submit">Search</button>
+      </div>
+    </form>
+
+    <?php print("$output");?>
     
     <div class="wrapper_size">
       <h2>Size Selection</h2>
