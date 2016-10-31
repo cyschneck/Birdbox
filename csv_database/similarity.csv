@@ -1,1 +1,7 @@
 Sim_ID,Bird_ID_1,Bird_ID_2,Bird_1_Text,Bird_2_text
+1,32,,Similar to Pintail,Similar to Garganey
+2,75,32,Similar to Garganey,Similar to Pintail
+3,81,,Similar to Crow,Similar to Raven
+4,82,,Similar to Raven,Similar to Crow
+5,70,69,Similar to common merganser,Similar to Red-Breasted Merganser
+6,69,70,Similar to Red-Breasted Merganser,Similar to common merganser
