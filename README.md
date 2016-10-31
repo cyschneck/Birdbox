@@ -82,3 +82,6 @@ Gmail and Skype (as needed)
 
 ## Milestone 2
 [Project Management and Tools](https://docs.google.com/document/d/1xpzpVcBUiLs5x0CFPeqe4GF4R-_lFdDdLvF7EngWghc/edit?usp=sharing)
+
+## Milestone 3
+[Database Tools](https://docs.google.com/a/colorado.edu/document/d/1OJ8w0CWUQseFQOlSxhRqP-08dNkg5Pad8tyPuGBLT1w/edit?usp=sharing)
