@@ -1,5 +1,7 @@
 # CSCI-3308-Group-Project
 
+## [Click Here for the Website](http:/Xuis.github.io/repository)
+
 ![icon_readme](https://cloud.githubusercontent.com/assets/22159116/18973488/e1f5a5a0-865a-11e6-893b-ad6e79beceb7.PNG)
 
 ## Team Name
