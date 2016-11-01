@@ -84,6 +84,27 @@ header a {
     background-color: white;
     text-align: center;
 }
+
+/*Add css to the placeholder search bar to expand when clicked on*/
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    /*background-image: url('search_icon1.png') no-repeat 10px 10px center;
+    baackground-size: 15%;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;*/
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: all 0.4s;
+    transition: width all 0.4s;
+}
+
+input[type=text]:focus {
+  width: 55%;
+}
 /*display the checkboxes: 'animation' that creates the the clean selection checkboxes: filters*/
 input[type="checkbox"][id^="Filter"]{
     display: none;

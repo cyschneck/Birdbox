@@ -20,14 +20,16 @@
 
   <section class="content">
     <!--dynamic link to the database-->
-    <form action ="search.php" method="GET">
-      <!--general search bar connects database via php-->
-      <div class="search">
+    <!--<form action ="search.php" method="GET">
         <input name="search_name" type="text" placeholder="Search All Birds"/>
-        <input type="submit" value="Search"/>
-      </div>
+        <input type="button" value="Search"/>
     </form>
-    <?php print("$output");?>
+    <?php print("$output");?-->
+
+    <!--General search bar, will be replaced-->
+    <form>
+      <input type="text" name="search" placeholder="Search">
+    </form>
 
     <!--specific search function for the filters-->
     <form action ="search.php" method="GET">
@@ -134,6 +136,7 @@
 
     <!--this is where the google forms will be inserted, consider including in header-->
     <h2>Submission Form</h2>
+    <p>Google Form goes here</p>
 
     <div class="footer">
       <a href="https://github.com/Xuis/CSCI-3308-Group-Project">github source</a>
