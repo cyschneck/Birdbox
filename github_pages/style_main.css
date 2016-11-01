@@ -65,7 +65,7 @@ header a {
     color: black;
     background: white;
     display: inline-block;
-    paddding: 0px 30px;
+    padding: 0px 30px;
     height: 60px;
     line-height: 60px;
     font-family: "Arial", "Helvetica", sans-serif;
@@ -73,6 +73,11 @@ header a {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 500;
+}
+
+/*add whitespace below h1*/
+h1 {
+   padding: 0px 0px 150px;
 }
 
 /*fixed footer*/
