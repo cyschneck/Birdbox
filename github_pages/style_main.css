@@ -2,11 +2,12 @@
 body {
   margin: 0 auto;
   max-width: 50em;
+  text-align: center;
 }
 
 /*font for text*/
 body {
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "Arial", "Helvetica", sans-serif;
 }
 
 /*word spacing*/
@@ -37,5 +38,119 @@ h2 {
 /*secondary color: green*/
 a {
   color: #27ae60;
+  text-decoration: none;
 }
 
+/*link hover color animation*/
+a:hover {
+    color: #84D2F6;
+    -webkit-transition: all, 0.5s ease-in-out;
+    -mox-transition: all, 0.5s ease-in-out;
+    transition: all, 0.5s ease-in-out;
+}
+
+/*fixed header*/
+header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background: white no-repeat;
+    height: 60px;
+    left: 0px;
+}
+
+/* links in header */
+header a {
+    color: black;
+    background: white;
+    display: inline-block;
+    paddding: 0px 30px;
+    height: 60px;
+    line-height: 60px;
+    font-family: "Arial", "Helvetica", sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+/*fixed footer*/
+.footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5em;
+    background-color: white;
+    text-align: center;
+}
+/*display the checkboxes: 'animation' that creates the the clean selection checkboxes: filters*/
+input[type="checkbox"][id^="Filter"]{
+    display: none;
+}
+
+input[type="checkbox"][id^="Color"]{
+    display: none;
+}
+
+input[type="checkbox"][id^="Feature"]{
+    display: none;
+}
+/*above removes the checkbox box*/
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 0 auto;
+    display: inline-block;
+    overflow: hidden;
+}
+
+label {
+    border: 1px solid #fff;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin: 0px;
+    cursor: pointer;
+}
+
+label:before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%
+    border: 1px solid grey;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+}
+
+label img {
+    height: 100px;
+    width: 100px;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+}
+
+:checked + label {
+    border-color: #27ae60;
+}
+
+:checked + label img {
+    transform: scale(0.9);
+    z-index: -1;
+}
+
+img:hover {
+    opacity: 0.5;
+}

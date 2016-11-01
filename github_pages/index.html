@@ -11,62 +11,129 @@
   <body>
 
   <header>
-    <a href="#" id="logo"><strong>HOME</strong></a>
+    <!--link to the top of the home page-->
+    <a href="#" id="logo"><strong>Birdbox</strong></a>
+    <a href="about_page.html">About</a>
   </header>
 
-  <section class="content">
-    
-    <form action ="search.php" method="GET">
+  <h1>Birdbox:<em>The Interactive User-Centered Field Guide</em></h1>
 
+  <section class="content">
+    <!--dynamic link to the database-->
+    <form action ="search.php" method="GET">
+      <!--general search bar connects database via php-->
       <div class="search">
-        <input name="search_name" type="text" placeholder="Bird Name"/>
+        <input name="search_name" type="text" placeholder="Search All Birds"/>
         <input type="submit" value="Search"/>
       </div>
     </form>
-
     <?php print("$output");?>
-    
-    <h2>Submission Form</h2>
-    
-    <form action ="search.php" method="GET">
-      
-      <div class="wrapper_size">
-        <h2>Size Selection</h2>
-        <div class="xsmall"><p><input name="bird_size" type="checkbox" value="e_small"/>Extra Small</p></div>
-        <div class="small"><p><input name="bird_size" type="checkbox" value="small"/>Small</p></div>
-        <div class="medium"><p><input name="bird_size" type="checkbox" value="medium"/>Medium</p></div>
-        <div class="average"><p><input name="bird_size" type="checkbox" value="average"/>Average</p></div>
-        <div class="large"><p><input name="bird_size" type="checkbox" value="large"/>Large</p></div>
-        <div class="xlarge"><p><input name="bird_size" type="checkbox" value="e_large"/>Extra Large</p></div>
-      </div>
-      
-      <div class="wrapper_color">
-        <h2>Color Selection</h2>
-        <div class="black"><p><input name="bird_color" type="checkbox" value="black"/>Black</p></div>
-        <div class="white"><p><input name="bird_color" type="checkbox" value="white"/>White</p></div>
-        <div class="brown"><p><input name="bird_color" type="checkbox" value="brown"/>Brown</p></div>
-        <div class="red"><p><input name="bird_color" type="checkbox" value="red"/>Red</p></div>
-        <div class="grey"><p><input name="bird_color" type="checkbox" value="grey"/>Grey</p></div>
-        <div class="orange_yellow"><p><input name="bird_color" type="checkbox" value="orange_yellow"/>Orange and Yellow</p></div>
-        <div class="green"><p><input name="bird_color" type="checkbox" value="green"/>Green</p></div>
-        <div class="blue"><p><input name="bird_color" type="checkbox" value="blue"/>Blue</p></div>
-        <div class="purple"><p><input name="bird_color" type="checkbox" value="purple"/>Purple</p></div>
-      </div>
 
-      <div class="wrapper_features">
+    <!--specific search function for the filters-->
+    <form action ="search.php" method="GET">
+
+    <h2>Size Selection</h2>
+      <ul>
+          <li>
+            <input type="checkbox" id="FilterExtraSmall"/>
+            <label for="FilterExtraSmall"><img src = "extra_small.png"/></label>
+          </li>
+          <li>
+              <input type="checkbox" id="FilterSmall"/>
+              <label for="FilterSmall"><img src = "small.png"/></label>
+          </li>
+          <li>
+              <input type="checkbox" id="FilterMedium"/>
+              <label for="FilterMedium"><img src = "medium.png"/></label>
+          </li>
+          <li>
+              <input type="checkbox" id="FilterAverage"/>
+              <label for="FilterAverage"><img src = "average.png"/></label>
+          </li>
+          <li>
+              <input type="checkbox" id="FilterLarge"/>
+              <label for="FilterLarge"><img src = "large.png"/></label>
+          </li>
+          <li>
+              <input type="checkbox" id="FilterExtraLarge"/>
+              <label for="FilterExtraLarge"><img src = "extra_large.png"/></label>
+          </li>
+      </ul>
+
+      <h2>Color Selection</h2>
+      <ul>
+          <li>
+            <input type="checkbox" id="ColorBlack"/>
+            <label for="ColorBlack"><img src = "black.png"/></label>
+          </li>
+          <li>
+              <input type="checkbox" id="ColorWhite"/>
+              <label for="ColorWhite"><img src = "white.png"/></label>
+          </li>
+          <li>
+              <input type="checkbox" id="ColorBrown"/>
+              <label for="ColorBrown"><img src = "brown.png"/></label>
+          </li>
+          <li>
+              <input type="checkbox" id="ColorRed"/>
+              <label for="ColorRed"><img src = "red.png"/></label>
+          </li>
+          <li>
+              <input type="checkbox" id="ColorGrey"/>
+              <label for="ColorGrey"><img src = "grey.png"/></label>
+          </li>
+          <li>
+              <input type="checkbox" id="ColorOrangeYellow"/>
+              <label for="ColorOrangeYellow"><img src = "orange_yellow.png"/></label>
+          </li>
+          <li>
+              <input type="checkbox" id="ColorGreen"/>
+              <label for="ColorGreen"><img src = "green.png"/></label>
+          </li>
+          <li>
+              <input type="checkbox" id="ColorBlue"/>
+              <label for="ColorBlue"><img src = "blue.png"/></label>
+          </li>
+          <li>
+              <input type="checkbox" id="ColorPurple"/>
+              <label for="ColorPurple"><img src = "purple.png"/></label>
+          </li>
+      </ul>
+
         <h2>Notable Features</h2>
-        <div class="long_neck"><p><input name="bird_trait" type="checkbox" value="long_neck"/>Long Neck</p></div>
-        <div class="wing_bar"><p><input name="bird_trait" type="checkbox" value="wing_bar"/>Wing Bar</p></div>
-        <div class="colorful"><p><input name="bird_trait" type="checkbox" value="colorful"/>Colorful</p></div>
-        <div class="large_bill"><p><input name="bird_trait" type="checkbox" value="large_bill"/>Large Bill</p></div>
-        <div class="long_tail"><p><input name="bird_trait" type="checkbox" value="long_tail"/>Long Tail</p></div>
-        <div class="plummage"><p><input name="bird_trait" type="checkbox" value="plummage"/>Plummage</p></div>
-      </div>
-      
-      <input type="submit" value="Search"/>
-      
+        <ul>
+            <li>
+              <input type="checkbox" id="FeatureLongNeck"/>
+              <label for="FeatureLongNeck"><img src = "long_neck.png"/></label>
+            </li>
+            <li>
+                <input type="checkbox" id="FeatureWingBar"/>
+                <label for="FeatureWingBar"><img src = "wing_bar.png"/></label>
+            </li>
+            <li>
+                <input type="checkbox" id="FeatureColorful"/>
+                <label for="FeatureColorful"><img src = "colorful.png"/></label>
+            </li>
+            <li>
+                <input type="checkbox" id="FeatureLargeBill"/>
+                <label for="FeatureLargeBill"><img src = "large_bill.png"/></label>
+            </li>
+            <li>
+                <input type="checkbox" id="FeatureLongTail"/>
+                <label for="FeatureLongTail"><img src = "long_tail.png"/></label>
+            </li>
+            <li>
+                <input type="checkbox" id="FeaturePlummage"/>
+                <label for="FeaturePlummage"><img src = "plummage.png"/></label>
+            </li>
+        </ul>
+
+      <input type="submit" value="Find Bird"/>
+
     </form>
-    
+
+    <!--this is where the google forms will be inserted, consider including in header-->
+    <h2>Submission Form</h2>
 
     <div class="footer">
       <a href="https://github.com/Xuis/CSCI-3308-Group-Project">github source</a>
