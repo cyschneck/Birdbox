@@ -27,7 +27,7 @@
     <?php print("$output");?-->
 
     <!--General search bar, will be replaced-->
-    <form>
+    <form action ="search.php" method="GET">
       <input type="text" name="search" placeholder="Search">
     </form>
 
@@ -37,27 +37,47 @@
     <h2>Size Selection</h2>
       <ul>
           <li>
-            <input type="checkbox" id="FilterExtraSmall"/>
+            <input name="bird_size" type="radio" id="FilterExtraSmall" value="extra_small" style="display:none;"/>
             <label for="FilterExtraSmall"><img src = "extra_small.png"/></label>
           </li>
           <li>
-              <input type="checkbox" id="FilterSmall"/>
+              <input name="bird_size" type="radio" id="FileterExtraSmallToSmall" value="extra_small_to_small" style="display:none;"/>
+              <label for="FileterExtraSmallToSmall"><img src = "duel_arrow.png"/></label>
+          </li>
+          <li>
+              <input name="bird_size" type="radio" id="FilterSmall" value="small" style="display:none;"/>
               <label for="FilterSmall"><img src = "small.png"/></label>
           </li>
           <li>
-              <input type="checkbox" id="FilterMedium"/>
+              <input name="bird_size" type="radio" id="FileterSmallToMedium" value="small_to_medium" style="display:none;"/>
+              <label for="FileterSmallToMedium"><img src = "duel_arrow.png"/></label>
+          </li>
+          <li>
+              <input name="bird_size" type="radio" id="FilterMedium" value="medium" style="display:none;"/>
               <label for="FilterMedium"><img src = "medium.png"/></label>
           </li>
           <li>
-              <input type="checkbox" id="FilterAverage"/>
+              <input name="bird_size" type="radio" id="FilterMediumToAverage" value="medium_to_average" style="display:none;"/>
+              <label for="FilterMediumToAverage"><img src = "duel_arrow.png"/></label>
+          </li>
+          <li>
+              <input name="bird_size" type="radio" id="FilterAverage" value="average" style="display:none;"/>
               <label for="FilterAverage"><img src = "average.png"/></label>
           </li>
           <li>
-              <input type="checkbox" id="FilterLarge"/>
+              <input name="bird_size" type="radio" id="FilterAverageToLarge" value="average_to_large" style="display:none;"/>
+              <label for="FilterAverageToLarge"><img src = "duel_arrow.png"/></label>
+          </li>
+          <li>
+              <input name="bird_size" type="radio" id="FilterLarge" value="large" style="display:none;"/>
               <label for="FilterLarge"><img src = "large.png"/></label>
           </li>
           <li>
-              <input type="checkbox" id="FilterExtraLarge"/>
+              <input name="bird_size" type="radio" id="FilterLargeToExtralarge" value="large_to_extra_large" style="display:none;"/>
+              <label for="FilterLargeToExtralarge"><img src = "duel_arrow.png"/></label>
+          </li>
+          <li>
+              <input name="bird_size" type="radio" id="FilterExtraLarge" value="extra_large" style="display:none;"/>
               <label for="FilterExtraLarge"><img src = "extra_large.png"/></label>
           </li>
       </ul>
@@ -65,39 +85,39 @@
       <h2>Color Selection</h2>
       <ul>
           <li>
-            <input type="checkbox" id="ColorBlack"/>
+            <input name="bird_color" type="checkbox" id="ColorBlack" value="black"/>
             <label for="ColorBlack"><img src = "black.png"/></label>
           </li>
           <li>
-              <input type="checkbox" id="ColorWhite"/>
+              <input name="bird_color" type="checkbox" id="ColorWhite" value="white"/>
               <label for="ColorWhite"><img src = "white.png"/></label>
           </li>
           <li>
-              <input type="checkbox" id="ColorBrown"/>
+              <input name="bird_color" type="checkbox" id="ColorBrown" value="brown"/>
               <label for="ColorBrown"><img src = "brown.png"/></label>
           </li>
           <li>
-              <input type="checkbox" id="ColorRed"/>
+              <input name="bird_color" type="checkbox" id="ColorRed" value="red"/>
               <label for="ColorRed"><img src = "red.png"/></label>
           </li>
           <li>
-              <input type="checkbox" id="ColorGrey"/>
+              <input name="bird_color" type="checkbox" id="ColorGrey" value="grey"/>
               <label for="ColorGrey"><img src = "grey.png"/></label>
           </li>
           <li>
-              <input type="checkbox" id="ColorOrangeYellow"/>
+              <input name="bird_color" type="checkbox" id="ColorOrangeYellow" value="orange_yellow"/>
               <label for="ColorOrangeYellow"><img src = "orange_yellow.png"/></label>
           </li>
           <li>
-              <input type="checkbox" id="ColorGreen"/>
+              <input name="bird_color" type="checkbox" id="ColorGreen" value="green"/>
               <label for="ColorGreen"><img src = "green.png"/></label>
           </li>
           <li>
-              <input type="checkbox" id="ColorBlue"/>
+              <input name="bird_color" type="checkbox" id="ColorBlue" value="blue"/>
               <label for="ColorBlue"><img src = "blue.png"/></label>
           </li>
           <li>
-              <input type="checkbox" id="ColorPurple"/>
+              <input name="bird_color" type="checkbox" id="ColorPurple" value="purple"/>
               <label for="ColorPurple"><img src = "purple.png"/></label>
           </li>
       </ul>
@@ -105,27 +125,27 @@
         <h2>Notable Features</h2>
         <ul>
             <li>
-              <input type="checkbox" id="FeatureLongNeck"/>
+              <input name="bird_features" type="checkbox" id="FeatureLongNeck" value="long_neck"/>
               <label for="FeatureLongNeck"><img src = "long_neck.png"/></label>
             </li>
             <li>
-                <input type="checkbox" id="FeatureWingBar"/>
+                <input name="bird_features" type="checkbox" id="FeatureWingBar" value="wing_bar"/>
                 <label for="FeatureWingBar"><img src = "wing_bar.png"/></label>
             </li>
             <li>
-                <input type="checkbox" id="FeatureColorful"/>
+                <input name="bird_features" type="checkbox" id="FeatureColorful" value="colorful"/>
                 <label for="FeatureColorful"><img src = "colorful.png"/></label>
             </li>
             <li>
-                <input type="checkbox" id="FeatureLargeBill"/>
+                <input name="bird_features" type="checkbox" id="FeatureLargeBill" value="large_bill"/>
                 <label for="FeatureLargeBill"><img src = "large_bill.png"/></label>
             </li>
             <li>
-                <input type="checkbox" id="FeatureLongTail"/>
+                <input name="bird_features" type="checkbox" id="FeatureLongTail" value="long_tail"/>
                 <label for="FeatureLongTail"><img src = "long_tail.png"/></label>
             </li>
             <li>
-                <input type="checkbox" id="FeaturePlummage"/>
+                <input name="bird_features" type="checkbox" id="FeaturePlummage" value="plummage"/>
                 <label for="FeaturePlummage"><img src = "plummage.png"/></label>
             </li>
         </ul>
