@@ -87,3 +87,6 @@ Gmail and Skype (as needed)
 
 ## Milestone 3
 [Database Tools](https://docs.google.com/a/colorado.edu/document/d/1OJ8w0CWUQseFQOlSxhRqP-08dNkg5Pad8tyPuGBLT1w/edit?usp=sharing)
+
+## Milestone 4
+[Market Analysis](https://docs.google.com/a/colorado.edu/document/d/1WOtqnDvGKDd28r9QWuC5iy7eUnJwTRTiGtcJExv2W8I/edit?usp=sharing)
