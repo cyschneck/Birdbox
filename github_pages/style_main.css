@@ -1,3 +1,5 @@
+/*banner, title and tagline*/
+
 /*Centering text*/
 body {
   margin: 0 auto;
@@ -75,8 +77,8 @@ header a {
     font-weight: 500;
 }
 
-/*add whitespace below h1*/
-h1 {
+/*add whitespace below banner, title and tagline*/
+h1,p {
    padding: 0px 0px 150px;
 }
 
