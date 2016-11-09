@@ -1,6 +1,6 @@
 # CSCI-3308-Group-Project
 
-## [Click Here for the Website](http:/Xuis.github.io/repository)
+## [Click Here for the Website](https://xuis.github.io/CSCI-3308-Group-Project/github_pages/)
 
 <img src="https://github.com/Xuis/CSCI-3308-Group-Project/blob/master/pics_readme/icon_readme.jpg" width="220">
 
