@@ -79,3 +79,19 @@ header a {
 ul {
   list-style-type: none;
 }
+
+/*set up circular images for each user*/
+.about-us img {
+  border: 5px solid blue;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px gray;
+  margin: 0 auto;
+  width: 20%;
+  height: auto;
+}
+
+li {
+  margin: 0 auto;
+  display: inline-block;
+  overflow: hidden:
+}
