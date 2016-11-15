@@ -12,19 +12,19 @@ CREATE TABLE Similarity (Sim_ID INTEGER, Bird_ID_1 INTEGER, Bird_ID_2 INTEGER, B
 DROP TABLE IF EXISTS Filters;
 CREATE TABLE Filters (Bird_ID INTEGER,Common_Name VARCHAR(45), Sex VARCHAR(45), Scientific_Name VARCHAR(45),Family VARCHAR(45), Length_cm FLOAT, Body_Mass_kg FLOAT, Wingspan_cm FLOAT, Notable_Features VARCHAR(45), C_Black VARCHAR(1), C_White VARCHAR(1), C_Brown VARCHAR(1), C_Red VARCHAR(1), C_Grey VARCHAR(1), C_Orange_Yellow VARCHAR(1), C_Green VARCHAR(1), C_Blue VARCHAR(1), C_Purple VARCHAR(1));
 
-LOAD DATA LOCAL INFILE '/home/user/Dropbox/CSCI3308/Group_Project/CSCI-3308-Group-Project/csv_database/display_info.csv'
+LOAD DATA LOCAL INFILE 'display_info.csv'
 INTO TABLE Display_Info
 FIELDS TERMINATED BY ','
 IGNORE 1 LINES
 (Bird_ID,Common_Name,Text,Image,Color);
 
-LOAD DATA LOCAL INFILE '/home/user/Dropbox/CSCI3308/Group_Project/CSCI-3308-Group-Project/csv_database/similarity.csv'
+LOAD DATA LOCAL INFILE 'similarity.csv'
 INTO TABLE Similarity
 FIELDS TERMINATED BY ','
 IGNORE 1 LINES 
 (Sim_ID, Bird_ID_1, Bird_ID_2, Bird_1_Text, Bird_2_text);
 
-LOAD DATA LOCAL INFILE '/home/user/Dropbox/CSCI3308/Group_Project/CSCI-3308-Group-Project/csv_database/filter.csv'
+LOAD DATA LOCAL INFILE 'filter.csv'
 INTO TABLE Filters
 FIELDS TERMINATED BY ','
 IGNORE 1 LINES 
