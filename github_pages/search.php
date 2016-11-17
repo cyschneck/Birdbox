@@ -1,6 +1,4 @@
-#!/usr/bin/php
-
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 	<header>
 	</header>
@@ -20,19 +18,15 @@
 			
 			$query = "SELECT * FROM Display_Info, Filters WHERE Display_Info.Bird_ID = Filters.Bird_ID";
 			
-			// to do: set up accesing of input variables.
-			/*
-			print_r($_GET);
-			echo $_GET[search];
-			if( isset($_GET["search"]) )
+			var_dump($_GET);
+			echo "<br>";
+			
+			if( isset($_GET["search"]))
 			{
-				echo "name";
+				$query = $query . " AND Filters.Common_Name LIKE '%" . $_GET["search"] . "%'";
 			}
-			else
-			{
-				echo "fail";
-			}
-			*/
+			
+			//echo $query;
 			
 			$results = $mysql->query("$query");
 			
