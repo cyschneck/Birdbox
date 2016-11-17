@@ -1,0 +1,324 @@
+/* setting up background image*/
+.jumbotron {
+  background-image: url('banner.jpg');
+  background-color: white;
+  width: 100%;
+  min-height: 1000px;
+  /*height: auto;*/
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+/* keep words in background image relative*/
+.jumbotron .container {
+  position: relative;
+  top: 100px;
+  right: 50px;
+}
+
+/*header birdbox words on background image*/
+.jumbotron h1 {
+  color: #fff;
+  font-size: 64px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  text-align: left;
+}
+
+/*secondary text on background image*/
+.jumbotron h3 {
+  font-size: 35px;
+  color: #fff;
+  text-align: left;
+}
+
+/*paragraph text on background image*/
+.jumbotron p {
+  font-size: 18px;
+  color: #fff;
+  text-align: left;
+  width: 400px;
+  height: 100px;
+}
+
+/*word spacing and centering for h2*/
+body {
+  line-height: 1.5;
+  padding: 4em 1em;
+  text-align: center;
+}
+
+/*font for text*/
+body {
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+
+/*word spacing*/
+body {
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+  text-align: center;
+}
+
+/*lighten black font text*/
+body {
+  color: #555;
+}
+
+h1,
+h2,
+strong {
+  color: #333;
+  text-decoration: none;
+}
+
+/*primary color: blue*/
+h2 {
+  color: #3498db;
+}
+
+/*secondary color: green*/
+a {
+  color: #27ae60;
+  text-decoration: none;
+}
+
+/*link hover color animation*/
+a:hover {
+  color: #84D2F6;
+  text-decoration: none;
+  -webkit-transition: all, 0.5s ease-in-out;
+  -mox-transition: all, 0.5s ease-in-out;
+  transition: all, 0.5s ease-in-out;
+}
+
+/*fixed header and center*/
+header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  background: white no-repeat;
+  height: 60px;
+  left: 0px;
+  text-align: center;
+}
+
+/* links in header */
+header a {
+  color: black;
+  background: white;
+  display: inline-block;
+  padding: 0px 30px;
+  height: 60px;
+  line-height: 60px;
+  font-family: "Arial", "Helvetica", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+/*fixed footer*/
+.footer {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1em;
+    background-color: white;
+    text-align: center;
+}
+
+/*Add css to the placeholder search bar to expand when clicked on*/
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: all 0.4s;
+    transition: width all 0.4s;
+}
+
+input[type=text]:focus {
+  width: 55%;
+}
+
+input[type=text]:focus {
+  width: 55%;
+}
+/*display the checkboxes: 'animation' that creates the the clean selection checkboxes: filters*/
+input[type="checkbox"][id^="Filter"]{
+    display: none;
+}
+
+input[type="checkbox"][id^="Color"]{
+    display: none;
+}
+
+input[type="checkbox"][id^="Feature"]{
+    display: none;
+}
+/*above removes the checkbox box*/
+/*below sets up the fade color in selection, selection outline and 'checked' status*/
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 0 auto;
+    display: inline-block;
+    overflow: hidden;
+}
+
+label {
+    border: 1px solid #fff;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin: 0px;
+    cursor: pointer;
+}
+
+label:before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%
+    border: 1px solid grey;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+}
+
+.content label img {
+    height: 100px;
+    width: 100px;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+}
+
+:checked + label {
+    /*border-color: #27ae60;*/
+    opacity: 0.5;
+}
+
+:checked + label img {
+    transform: scale(0.9);
+    z-index: -1;
+}
+
+body img:hover {
+    opacity: 0.5;
+}
+
+/*find bird button style*/
+.find-bird-button {
+  position: relative;
+  vertical-align: top;
+  width: 20%;
+  height: 60px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #3498db;
+  border: 0;
+  border-bottom: 2px solid #2a8bcc;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #2a8bcc;
+  box-shadow: inset 0 -2px #2a8bcc;
+}
+
+.find-bird-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;}
+}
+
+/* ###################### ABOUT PAGE ######################## */
+body {
+  background:#3498db;
+  overflow:hidden;
+}
+#card {
+  overflow:hidden;
+  text-align:center;
+  width:320px;
+  height:535px;
+  background: url("about_icons/background.jpg");
+  background-size: cover;
+  background-position:center center;
+  position:relative;
+  top:0; left:0; right:0; bottom:0;
+  margin:auto;
+  box-shadow:
+    0px 30px 30px -20px rgba(0,0,0,1),
+    inset 0 0 0 1000px rgba(134,178,214, 0.8);
+  transition: all .4s cubic-bezier(.37,.26,.35,1)
+}
+#card:hover {
+  box-shadow:
+    0px 30px 30px -20px rgba(0,0,0,.9),
+    inset 0 0 0 1000px rgba(67,52,109,.2);
+}
+#card:hover #avatar {
+  animation:none;
+  box-shadow:0;
+  width:200px;
+  height:200px;
+}
+
+#card:hover #profile{
+  opacity:1;
+  bottom:0;
+}
+#profile {
+  transition: all .5s cubic-bezier(.37,.26,.35,1);
+  opacity:0;
+  position:absolute;
+  bottom:20px;
+  width:100%;
+}
+#profile h1 {
+  color:#fff;
+  padding:0;
+  margin:0;
+}
+
+#profile h3 {
+  color:#aaa;
+  padding:0;
+  margin:5px 0 40px 0;
+  font-size:.9em
+}
+#avatar {
+  transition: all .4s cubic-bezier(.37,.26,.35,1);
+  animation: circleAn 4s infinite;
+  width:150px; height:150px;
+  position:absolute;
+  top:0; left:0; right:0; bottom:0;
+  margin:auto;
+  background:url("about_icons/placeholder.jpg");
+  background-size:cover;
+  background-position:center center;
+  border-radius:100%;
+  box-shadow:0px 30px 30px -25px rgba(0,0,0,0.6);
+}
