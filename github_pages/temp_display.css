@@ -1,0 +1,200 @@
+.team_member {
+  width:100%;
+  position:relative;
+  overflow:hidden;
+  height:250px;
+  padding-bottom: 75px;
+  padding-top: 70px;
+}
+
+.center-me{
+    position: relative;
+    top: -50px;
+    left: 400px;
+}
+
+.info {
+  height:100%;
+}
+
+.info img {
+  width:100%;
+  transition: all .4s ease-out .1s;
+   -moz-transition: all .4s ease-out .1s;
+   -webkit-transition: all .4s ease-out .1s;
+}
+
+.info h5 {
+  padding: 10px 10px 0 0;
+  margin: 0 0 10px 3px;
+  line-height: 1em;
+  opacity: 1;
+  transition: all .2s ease-out .1s;
+   -moz-transition: all .2s ease-out .1s;
+   -webkit-transition: all .2s ease-out .1s;
+  font-size: 1.125em;
+}
+
+.info h6 {
+  padding:0 10px 0 0;
+  font-size:12px;
+  margin:0 0 0 3px;
+  line-height:1em;
+  text-transform:uppercase;
+  color:#999;
+  opacity:1;
+  transition: all .2s ease-out .1s;
+   -moz-transition: all .2s ease-out .1s;
+   -webkit-transition: all .2s ease-out .1s;
+}
+
+.info_reveal {
+  height:100%;
+  transition: all .3s ease-in 0s;
+   -moz-transition: all .3s ease-in 0s;
+   -webkit-transition: all .23s ease-in 0s;
+  position:absolute;
+  width:100%;
+  left:0;
+  top:-100%;
+  background: rgba(19,148,119,0.9);
+}
+
+.info_reveal h6 {
+  padding: 20px 8px 5px 8px;
+  line-height: 1.1em;
+		margin-bottom: 20px;
+		color: #fff;
+  font-size: 1em;
+}
+
+.info_reveal p {
+  padding:0 8px;
+  font-size:15px;
+  line-height: 1.2em;
+  color: #073a2e;
+  font-weight:400;
+}
+
+.info_reveal a {
+  color: #073a2e;
+		word-break: break-word;
+  text-decoration:none;
+}
+
+.info_reveal a:hover {
+  color: #073a2e;
+}
+
+
+.responsive_grid {
+ display:block;
+ margin:0;
+ padding:0;
+ list-style:none;
+ text-align: center;
+}
+
+.responsive_grid li {
+ cursor:pointer;
+ width: 16.66667%;
+ padding: 0 10px 10px;
+ display:inline-block;;
+ height:auto;
+ /*float:left;*/
+ margin-bottom:10px;
+}
+
+.responsive_grid li:hover .info_reveal,
+.responsive_grid li:focus .info_reveal{
+ left: 0;
+ top:0;
+ transition: all .3s ease-out .1s;
+   -moz-transition: all .3s ease-out .1s;
+   -webkit-transition: all .3s ease-out .1s;
+}
+
+.responsive_grid li:hover .info img,
+.responsive_grid li:focus .info img {
+  width:210%;
+  margin-left:-50%;
+  transition: all .4s ease-in 0s;
+   -moz-transition: all .4s ease-in 0s;
+   -webkit-transition: all .4s ease-in 0s;
+}
+
+.responsive_grid li:hover .info h5,
+.responsive_grid li:focus .info h5,
+.responsive_grid li:hover .info h6,
+.responsive_grid li:focus .info h6 {
+  opacity: 0;
+  transition: opacity .2s linear 0s;
+   -moz-transition: opacity .2s linear 0s;
+   -webkit-transition: opacity .2s linear 0s;
+}
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  padding: 50px 100px;
+  max-width: 55.25em;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+h5, h6, .info_reveal a {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+/*http://codepen.io/renwalker/pen/grcnA*/
+/*############################################################################*/
+/*find bird button style*/
+.find-bird-button {
+  position: relative;
+  vertical-align: top;
+  width: 20%;
+  height: 60px;
+  padding: 0;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #3498db;
+  border: 0;
+  border-bottom: 2px solid #2a8bcc;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #2a8bcc;
+  box-shadow: inset 0 -2px #2a8bcc;
+}
+
+.find-bird-button:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;}
+}
+
+/*fixed header and center*/
+header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  background: white no-repeat;
+  height: 60px;
+  left: 0px;
+  text-align: center;
+}
+
+/* links in header */
+header a {
+  color: black;
+  background: white;
+  display: inline-block;
+  padding: 0px 30px;
+  height: 60px;
+  line-height: 60px;
+  font-family: "Arial", "Helvetica", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
