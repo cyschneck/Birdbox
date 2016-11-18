@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
     <link rel="shortcut icon" href="icon_upper.jpg"/>
-    <title>Birdbox: The Interactive Field Guide</title>
+    <title>Birdbox | The Interactive Field Guide</title>
   </head>
 
 
@@ -18,27 +18,41 @@
     <a href="submission_page.html">Submit</a>
   </header>
 
-  <div class="jumbotron">
+  <div class="home-page jumbotron">
     <div class="container">
+        <div clss="col-mid-12">
         <h1>Birdbox.</h1>
         <h3><em>The Interactive User-Centered Field Guide</em></h3>
-        <p><br /><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt erat id mauris imperdiet varius. Duis congue diam a eros porttitor aliquam. Vivamus sagittis sapien eget risus congue, sit amet sagittis nibh pharetra. Morbi facilisis odio quis magna porta varius ut quis diam <br />
+        <p><br /><br />Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Vestibulum tincidunt erat id mauris imperdiet varius. Duis congue
+             diam a eros porttitor aliquam. Vivamus sagittis sapien eget risus
+             congue, sit amet sagittis nibh pharetra. Morbi facilisis odio
+             quis magna porta varius ut quis diam <br />
+             <br />
+             <em>Let's start searching!</em><br />
         <br /><a href="about_page.html">Learn More</a></p>
+    </div>
     </div>
   </div>
 
   <body>
+
+    <div class="search-bar">
       <!--General search bar, will be replaced-->
-      <form action ="search.php" method="GET">
+      <form action ="search.php/" method="GET">
         <input type="text" name="search" placeholder="Search">
       </form>
+    </div>
 
-      <!--specific search function for the filters-->
+  <!--specific search function for the filters-->
+  <div class="search-bar">
       <form action ="search.php" method="GET">
+   </div>
+
 
       <div class="size-selection">
         <h2>Size Selection</h2>
-
+        <hr>
         <ul>
             <li>
               <input name="bird_size" type="radio" id="FilterExtraSmall" value="extra_small" style="display:none;"/>
@@ -46,7 +60,7 @@
             </li>
             <li>
                 <input name="bird_size" type="radio" id="FileterExtraSmallToSmall" value="extra_small_to_small" style="display:none;"/>
-                <label for="FileterExtraSmallToSmall"><img src = "selection_icons/duel_arrow.png"/></label>
+                <!--<label for="FileterExtraSmallToSmall"><img src = "selection_icons/duel_arrow.png"/></label>-->
             </li>
             <li>
                 <input name="bird_size" type="radio" id="FilterSmall" value="small" style="display:none;"/>
@@ -54,7 +68,7 @@
             </li>
             <li>
                 <input name="bird_size" type="radio" id="FileterSmallToMedium" value="small_to_medium" style="display:none;"/>
-                <label for="FileterSmallToMedium"><img src = "selection_icons/duel_arrow.png"/></label>
+                <!--<label for="FileterSmallToMedium"><img src = "selection_icons/duel_arrow.png"/></label>-->
             </li>
             <li>
                 <input name="bird_size" type="radio" id="FilterMedium" value="medium" style="display:none;"/>
@@ -62,7 +76,7 @@
             </li>
             <li>
                 <input name="bird_size" type="radio" id="FilterMediumToAverage" value="medium_to_average" style="display:none;"/>
-                <label for="FilterMediumToAverage"><img src = "selection_icons/duel_arrow.png"/></label>
+                <!--<label for="FilterMediumToAverage"><img src = "selection_icons/duel_arrow.png"/></label>-->
             </li>
             <li>
                 <input name="bird_size" type="radio" id="FilterAverage" value="average" style="display:none;"/>
@@ -70,7 +84,7 @@
             </li>
             <li>
                 <input name="bird_size" type="radio" id="FilterAverageToLarge" value="average_to_large" style="display:none;"/>
-                <label for="FilterAverageToLarge"><img src = "selection_icons/duel_arrow.png"/></label>
+                <!--<label for="FilterAverageToLarge"><img src = "selection_icons/duel_arrow.png"/></label>-->
             </li>
             <li>
                 <input name="bird_size" type="radio" id="FilterLarge" value="large" style="display:none;"/>
@@ -78,7 +92,7 @@
             </li>
             <li>
                 <input name="bird_size" type="radio" id="FilterLargeToExtralarge" value="large_to_extra_large" style="display:none;"/>
-                <label for="FilterLargeToExtralarge"><img src = "selection_icons/duel_arrow.png"/></label>
+                <!--<label for="FilterLargeToExtralarge"><img src = "selection_icons/duel_arrow.png"/></label>-->
             </li>
             <li>
                 <input name="bird_size" type="radio" id="FilterExtraLarge" value="extra_large" style="display:none;"/>
@@ -89,6 +103,7 @@
 
       <div class="color-selection">
         <h2>Color Selection</h2>
+        <hr>
         <ul>
             <li>
               <input name="bird_color[]" type="checkbox" id="ColorBlack" value="black"/>
@@ -107,7 +122,7 @@
                 <label for="ColorRed"><img src = "selection_icons/red.png"/></label>
             </li>
             <li>
-                <input name="bird_color[]" type="checkbox" id="ColorGrey" value="grey"/>
+                <input name="bird_color" type="checkbox" id="ColorGrey" value="grey"/>
                 <label for="ColorGrey"><img src = "selection_icons/grey.png"/></label>
             </li>
             <li>
@@ -131,6 +146,7 @@
 
       <div class="notable-features">
         <h2>Notable Features</h2>
+        <hr>
         <ul>
             <li>
               <input name="bird_features[]" type="checkbox" id="FeatureLongNeck" value="long_neck"/>
@@ -159,14 +175,35 @@
         </ul>
       </div>
 
-      <p><input type="submit" value="Find Bird" class="find-bird-button"/></p>
+      <div class="find-button">
+          <p><input type="submit" value="Find Bird" class="find-bird-button"/></p>
+      </div>
 
     </form>
 
-      <div class="footer">
-        <a href="https://github.com/Xuis/CSCI-3308-Group-Project">github source</a>
-      </div>
+    <div id="footer" class="contact">
+      <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="about_page.html">About</a>
+                        </li>
+                        <li>
+                            <a href="submission_page.html">Submit</a>
+                        </li>
+                    </ul>
+                <p class="github text-muted small">
+                    <a href="https://github.com/Xuis/CSCI-3308-Group-Project">github source</a>
+                </p>
+              </div>
+           </div>
+         </div>
+     </footer>
+   </div>
 
-
-  </body>
 </html>
