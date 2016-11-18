@@ -18,13 +18,27 @@
 			
 			$query = "SELECT * FROM Display_Info, Filters WHERE Display_Info.Bird_ID = Filters.Bird_ID";
 			
-			var_dump($_GET);
-			echo "<br>";
-			
-			if( isset($_GET["search"]))
+			if (isset($_GET["search"]))
 			{
 				$query = $query . " AND Filters.Common_Name LIKE '%" . $_GET["search"] . "%'";
 			}
+			/*
+			if (isset($_GET["bird_size"]))
+			{
+				
+			}
+			if (isset($_GET["bird_color"]))
+			{
+				if(in_array("color",$_GET["bird_color"]))
+				{
+					$query = $query . " AND Filters.c_color = 1";
+				}
+			}
+			if (isset($_GET["bird_features"]))
+			{
+				
+			}
+			*/
 			
 			//echo $query;
 			
@@ -43,10 +57,12 @@
 				echo "No Match";
 			}
 			
+			
+			
 			//display results
 			while($row = $results->fetch_assoc())
 			{
-				echo $row['Common_Name'] . "<br>";
+				echo "<a href='bird.php?ID=".$row["Bird_ID"]."'>".$row['Common_Name'] . "</a><br>";
 			}
 			
 			
