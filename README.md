@@ -2,7 +2,7 @@
 
 ## [Click Here for the Website](https://xuis.github.io/CSCI-3308-Group-Project/github_pages/)
 
-<img src="https://github.com/Xuis/CSCI-3308-Group-Project/blob/master/pics_readme/icon_readme.jpg" width="220">
+<img src="https://github.com/Xuis/CSCI-3308-Group-Project/blob/master/pics_readme/icon_upper.png" width="220">
 
 ## Team Name
 
