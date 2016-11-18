@@ -1,77 +1,77 @@
-bird_id,common_name,sex,scientific_name,family,length_lower,length_upper,body_mass_lower,body_mass_upper,wingspan_lower,wingspan_upper,Notable_features,C_Black,C_White,C_Brown,C_Red,C_Grey,C_Orange_Yellow,C_Green,C_Blue,C_purple
-1,Black-Bellied Whistling Duck,Both,Dendrocygna autumnalis,Anatidae,47,56,0.652,1.02,76,94,"Long neck, wing bar",1,1,1,1,1,0,0,0,0
-2,Fulvous Whistling Duck,Both,Dendrocygna bicolor,Anatidae,45,53,0.595,1.05,76,94,"Long neck, wing bar",1,1,1,0,0,0,0,0,0
-3,Greater white-fronted goose,Both,Anser albifrons,Anatidae,64,81,1.93,3.31,130,165,Long neck,0,1,1,0,1,1,0,0,0
-4,Lesser white-fronted goose,Both,Anser erythropus,Anatidae,53,66,N/A,N/A,120,135,Long neck,0,1,1,0,1,1,0,0,0
-5,Lesser Snow Goose (White Morph),Both,Chen caerulescens,Anatidae,64,79,2.05,2.7,135,165,Long neck,1,1,0,1,0,0,0,0,0
-6,Lesser Snow Goose (Blue Morph),Both,Chen caerulescens,Anatidae,64,79,2.05,2.7,135,165,Long neck,1,1,1,1,1,0,0,0,0
-7,Greater Snow Goose (White Morph),Both,Chen atlanticus,Anatidae,64,79,3.2,4.5,135,165,Long neck,1,1,0,1,0,0,0,0,0
-8,Greater Snow Goose (Blue Morph),Both,Chen atlanticus,Anatidae,64,79,3.2,4.5,135,165,Long neck,1,1,1,1,1,0,0,0,0
-9,Ross's Goose,Both,Chen rossii,Anatidae,57,64,0.86,2.04,113,115,Long neck,1,1,0,1,0,0,0,0,0
-10,Brant Goose,Both,Branta bernicla,Anatidae,55,66,0.88,2.2,105,121,Long neck,1,1,1,0,0,0,0,0,0
-11,Cackling Goose,Both,Branta hutchinsonii,Anatidae,0.95,3,1.3,1.5,N/A,N/A,Long neck,1,1,1,0,0,0,0,0,0
-12,Canada Goose,Both,Branta canadensis,Anatidae,75,100,2.4,6.5,127,185,Long neck,1,1,1,0,0,0,0,0,0
-13,Trumpeter Swan,Both,Cygnus buccinator,Anatidae,138,180,7,13.6,127,185,Long neck,1,1,0,0,0,0,0,0,0
-14,Tundra Swan,Both,Cygnus columbianus,Anatidae,115,150,3.4,9.6,168,211,Long neck,1,1,0,0,0,1,0,0,0
-15,Wood Duck,Male,Aix sponsa,Anatidae,47,54,0.454,0.862,66,73,Colorful,1,1,1,1,0,1,1,0,0
-16,Wood Duck,Female,Aix sponsa,Anatidae,47,54,0.454,0.862,66,73,N/A,0,1,1,0,0,0,1,0,0
-17,Gadwall,Male,Anas strepera,Anatidae,56,56,0.98,1,78,90,N/A,1,1,0,0,1,1,0,0,0
-18,Gadwall,Female,Anas strepera,Anatidae,56,56,0.84,0.86,78,90,N/A,1,1,1,0,0,1,0,0,0
-19,Eurasian Wigeon,Both,Anas penelope,Anatidae,42,52,0.5,1.073,71,80,N/A,1,1,1,0,1,0,0,0,0
-20,American Wigeon,Male,Anas americana,Anatidae,42,59,0.512,1.33,76,91,N/A,1,0,1,0,0,0,1,0,0
-21,American Wigeon,Female,Anas americana,Anatidae,42,59,0.512,1.33,76,91,N/A,0,0,0,0,0,0,0,0,0
-22,American Black Duck,Both,Anas rubripes,Anatidae,48,63,0.72,1.64,88,96,N/A,0,0,1,0,0,1,0,0,0
-23,Mallard,Male,Anas platyrhynchos,Anatidae,50,65,0.72,1.58,81,98,N/A,0,1,1,0,1,1,1,1,0
-24,Mallard,Female,Anas platyrhynchos,Anatidae,50,65,0.72,1.58,81,98,N/A,1,1,1,0,0,1,0,1,0
-25,Mottled Duck,Both,Anas fulvigula,Anatidae,44,61,0.59,1.38,85,90,N/A,0,1,1,0,0,1,0,0,0
-26,Blue-Winged Teal,Male,Anas discors,Anatidae,36,41,0.23,0.545,56,62,N/A,1,1,1,0,0,0,0,1,0
-27,Blue-Winged Teal,Female,Anas discors,Anatidae,36,41,0.23,0.545,56,62,N/A,0,1,1,0,0,0,0,0,0
-28,Cinnamon Teal,Male,Anas cyanoptera,Anatidae,36,43,0.28,0.5,N/A,N/A,N/A,1,1,1,1,0,0,0,0,0
-29,Cinnamon Teal,Female,Anas cyanoptera,Anatidae,36,43,0.28,0.5,N/A,N/A,N/A,1,1,1,0,0,0,0,0,0
-30,Northern Shoveler,Male,Anas clypeata,Anatidae,44,51,0.4,0.82,70,80,"Large bill, colorful, similar to mallard",1,1,1,0,1,1,1,0,0
-31,Northern Shoveler,Female,Anas clypeata,Anatidae,44,51,0.4,0.82,70,80,"Large bill, colorful, similar to mallard",1,1,1,0,0,0,0,0,0
-32,Northern Pintail,Male,Anas acuta,Anatidae,59,76,0.45,1.36,80,95,N/A,1,1,1,0,0,0,0,0,0
-33,Northern Pintail,Female,Anas acuta,Anatidae,51,64,0.454,1.135,80,95,N/A,0,1,1,0,0,0,0,0,0
-34,Garganey,Male,Anas querquedula,Anatidae,N/A,N/A,N/A,N/A,N/A,N/A,Similar to pintail,1,1,1,0,0,0,0,1,0
-35,Garganey,Female,Anas querquedula,Anatidae,N/A,N/A,N/A,N/A,N/A,N/A,"Similar to pintail, common teal",0,1,1,0,0,0,0,1,0
-36,Green-Winged Teal,Male,Anas crecca,Anatidae,31,39,0.14,0.5,52,59,N/A,0,1,1,0,1,0,1,0,0
-37,Green-Winged Teal,Female,Anas crecca,Anatidae,31,39,0.14,0.5,52,59,N/A,0,1,1,0,0,0,1,0,0
-38,Canvasback,Male,Aythya valisineria,Anatidae,48,56,0.862,1.6,79,89,N/A,1,0,1,1,1,0,0,0,0
-39,Canvasback,Female,Aythya valisineria,Anatidae,48,56,0.862,1.6,79,89,N/A,0,1,1,0,0,0,0,0,0
-40,Redhead,Male,Aythya americana,Anatidae,42,54,0.63,1.5,75,79,N/A,1,0,1,1,1,0,0,0,0
-41,Redhead,Female,Aythya americana,Anatidae,42,54,0.63,1.5,75,79,N/A,0,1,1,0,0,0,0,0,0
-42,Ring-Necked Duck,Male,Aythya collaris,Anatidae,39,46,0.49,0.91,62,63,N/A,1,1,0,1,1,0,0,0,0
-43,Ring-Necked Duck,Female,Aythya collaris,Anatidae,39,46,0.49,0.91,62,63,N/A,0,1,1,0,0,0,0,0,0
-44,Trufted Duck,Male,Aythya fuligula,Anatidae,N/A,N/A,N/A,N/A,N/A,N/A,N/A,1,1,0,0,0,1,0,0,0
-45,Trufted Duck,Female,Aythya fuligula,Anatidae,N/A,N/A,N/A,N/A,N/A,N/A,N/A,0,0,1,0,0,1,0,0,0
-46,Greater Scaup,Male,Aythya marila,Anatidae,39,56,0.726,1.36,71,84,N/A,0,1,1,0,0,1,1,1,0
-47,Greater Scaup,Female,Aythya marila,Anatidae,39,56,0.726,1.36,71,84,N/A,0,1,1,0,0,1,0,1,0
-48,Lesser Scaup,Male,Aythya affinis,Anatidae,38,48,0.454,1.089,68,78,N/A,1,1,0,0,1,1,0,1,0
-49,Lesser Scaup,Female,Aythya affinis,Anatidae,38,48,0.454,1.089,68,78,N/A,0,1,1,0,0,1,0,1,0
-50,Harelquin Duck,Male,Histrionicus histrionicus,Anatidae,33,54,0.5,0.726,56,66,Colorful,1,1,1,0,1,0,0,1,0
-51,Harelquin Duck,Female,Histrionicus histrionicus,Anatidae,33,54,0.5,0.726,56,66,N/A,0,1,1,0,0,0,0,0,0
-52,Surf Scoter,Male,Melanitta perspicillata,Anatidae,48,60,0.953,1.769,75,79,N/A,1,1,0,0,0,1,0,0,0
-53,Surf Scoter,Female,Melanitta perspicillata,Anatidae,48,60,0.953,1.769,75,79,N/A,1,1,1,1,0,0,0,0,0
-54,White-Winged Scoter,Male,Melanitta fusca,Anatidae,52,57,1.36,2.128,53,60,N/A,1,1,0,0,0,0,0,0,0
-55,White-Winged Scoter,Female,Melanitta fusca,Anatidae,50,53,0.95,1.95,45,56,N/A,0,1,1,0,0,0,0,0,0
-56,Black Scoter,Male,Melanitta americana,Anatidae,48,49,1,1.1,83,84,N/A,1,0,0,0,0,1,0,0,0
-57,Black Scoter,Female,Melanitta americana,Anatidae,43,45,0.97,0.98,83,84,N/A,0,0,1,0,1,1,0,0,0
-58,Long-Tailed Duck,Male,Clangula hyemalis,Anatidae,44,60,0.73,0.74,70,71,Long tail,1,1,0,1,1,0,0,0,0
-59,Long-Tailed Duck,Female,Clangula hyemalis,Anatidae,44,60,0.73,0.74,70,71,N/A,1,1,1,0,1,0,0,0,0
-60,Bufflehead,Male,Bucephala albeola,Anatidae,32,40,0.27,0.55,54,55,N/A,1,1,0,0,0,0,1,0,1
-61,Bufflehead,Female,Bucephala albeola,Anatidae,32,40,0.27,0.55,54,55,N/A,1,1,0,0,1,0,0,0,0
-62,Common Goldeneye,Male,Bucephala clangula,Anatidae,45,52,0.888,1.4,77,83,N/A,1,1,0,0,0,1,1,0,0
-63,Common Goldeneye,Female,Bucephala clangula,Anatidae,40,50,0.5,1.128,75,77,N/A,1,1,1,0,1,1,0,0,0
-64,Barrow's Goldeneye,Male,Bucephala islandica,Anatidae,43,48,0.48,1.32,N/A,N/A,N/A,1,1,0,0,0,1,0,0,0
-65,Barrow's Goldeneye,Female,Bucephala islandica,Anatidae,43,48,0.48,1.32,N/A,N/A,N/A,0,1,1,0,0,1,0,0,0
-66,Hooded Merganser,Male,Lophodytes cucullatus,Anatidae,40,49,0.453,0.879,60,66,Plumage (head),1,1,1,0,0,0,0,0,0
-67,Hooded Merganser,Female,Lophodytes cucullatus,Anatidae,39,45,0.4,0.879,59,63,Plumage (head),0,0,1,0,0,1,0,0,0
-68,Common Merganser,Male,Mergus merganser,Anatidae,58,72,0.9,2.1,78,97,N/A,1,1,0,1,0,0,1,0,0
-69,Common Merganser,Female,Mergus merganser,Anatidae,58,72,0.9,2.1,78,97,N/A,0,1,0,1,1,1,0,0,0
-70,Red-Breasted Merganser,Male,Mergus serrator,Anatidae,51,62,0.8,1.35,70,86,Similar to common merganser,1,1,1,1,1,0,1,0,0
-71,Red-Breasted Merganser,Female,Mergus serrator,Anatidae,51,62,0.8,1.35,70,86,Similar to common merganser,0,0,1,1,1,0,0,0,0
-72,Ruddy Duck,Male,Oxyura jamaicensis,Anatidae,34,43,0.5,0.56,45,47,Blue bill(?),1,1,1,0,0,0,0,1,0
-73,Ruddy Duck,Female,Oxyura jamaicensis,Anatidae,34,43,0.5,0.56,45,47,N/A,1,1,1,0,0,0,0,0,0
-74,Scaled Quail,Both,Callipepla squamata,Odontophoridae,25,35,0.177,0.191,37,38,N/A,1,1,1,0,1,0,0,0,0
-75,Gambel's Quail,Both,Callipepla gambelii,Odontophoridae,24,25,0.16,0.2,34,36,Plumage (head),1,1,1,1,1,0,0,0,0
-76,Northern Bobwhite,Both,Colinus virginianus,Odontophoridae,24,28,0.13,0.255,33,38,N/A,1,1,1,0,0,0,0,0,0
+bird_id,common_name,sex,scientific_name,family,length_lower,length_upper,body_mass_lower,body_mass_upper,wingspan_lower,wingspan_upper,NF_wing_bar,NF_long_neck,NF_colorful,NF_large_bill,NF_long_tail,NF_plumage,other,C_Black,C_White,C_Brown,C_Red,C_Grey,C_Orange_Yellow,C_Green,C_Blue,C_purple
+1,Black-Bellied Whistling Duck,Both,Dendrocygna autumnalis,Anatidae,47,56,0.652,1.02,76,94,1,1,0,0,0,0,N/A,1,1,1,1,1,0,0,0,0
+2,Fulvous Whistling Duck,Both,Dendrocygna bicolor,Anatidae,45,53,0.595,1.05,76,94,1,1,0,0,0,0,N/A,1,1,1,0,0,0,0,0,0
+3,Greater white-fronted goose,Both,Anser albifrons,Anatidae,64,81,1.93,3.31,130,165,0,1,0,0,0,0,N/A,0,1,1,0,1,1,0,0,0
+4,Lesser white-fronted goose,Both,Anser erythropus,Anatidae,53,66,1000000000,1000000000,120,135,0,1,0,0,0,0,N/A,0,1,1,0,1,1,0,0,0
+5,Lesser Snow Goose (White Morph),Both,Chen caerulescens,Anatidae,64,79,2.05,2.7,135,165,0,1,0,0,0,0,N/A,1,1,0,1,0,0,0,0,0
+6,Lesser Snow Goose (Blue Morph),Both,Chen caerulescens,Anatidae,64,79,2.05,2.7,135,165,0,1,0,0,0,0,N/A,1,1,1,1,1,0,0,0,0
+7,Greater Snow Goose (White Morph),Both,Chen atlanticus,Anatidae,64,79,3.2,4.5,135,165,0,1,0,0,0,0,N/A,1,1,0,1,0,0,0,0,0
+8,Greater Snow Goose (Blue Morph),Both,Chen atlanticus,Anatidae,64,79,3.2,4.5,135,165,0,1,0,0,0,0,N/A,1,1,1,1,1,0,0,0,0
+9,Ross's Goose,Both,Chen rossii,Anatidae,57,64,0.86,2.04,113,115,0,1,0,0,0,0,N/A,1,1,0,1,0,0,0,0,0
+10,Brant Goose,Both,Branta bernicla,Anatidae,55,66,0.88,2.2,105,121,0,1,0,0,0,0,N/A,1,1,1,0,0,0,0,0,0
+11,Cackling Goose,Both,Branta hutchinsonii,Anatidae,0.95,3,1.3,1.5,1000000000,1000000000,0,1,0,0,0,0,N/A,1,1,1,0,0,0,0,0,0
+12,Canada Goose,Both,Branta canadensis,Anatidae,75,100,2.4,6.5,127,185,0,1,0,0,0,0,N/A,1,1,1,0,0,0,0,0,0
+13,Trumpeter Swan,Both,Cygnus buccinator,Anatidae,138,180,7,13.6,127,185,0,1,0,0,0,0,N/A,1,1,0,0,0,0,0,0,0
+14,Tundra Swan,Both,Cygnus columbianus,Anatidae,115,150,3.4,9.6,168,211,0,1,0,0,0,0,N/A,1,1,0,0,0,1,0,0,0
+15,Wood Duck,Male,Aix sponsa,Anatidae,47,54,0.454,0.862,66,73,0,0,1,0,0,0,N/A,1,1,1,1,0,1,1,0,0
+16,Wood Duck,Female,Aix sponsa,Anatidae,47,54,0.454,0.862,66,73,0,0,0,0,0,0,N/A,0,1,1,0,0,0,1,0,0
+17,Gadwall,Male,Anas strepera,Anatidae,56,56,0.98,1,78,90,0,0,0,0,0,0,N/A,1,1,0,0,1,1,0,0,0
+18,Gadwall,Female,Anas strepera,Anatidae,56,56,0.84,0.86,78,90,0,0,0,0,0,0,N/A,1,1,1,0,0,1,0,0,0
+19,Eurasian Wigeon,Both,Anas penelope,Anatidae,42,52,0.5,1.073,71,80,0,0,0,0,0,0,N/A,1,1,1,0,1,0,0,0,0
+20,American Wigeon,Male,Anas americana,Anatidae,42,59,0.512,1.33,76,91,0,0,0,0,0,0,N/A,1,0,1,0,0,0,1,0,0
+21,American Wigeon,Female,Anas americana,Anatidae,42,59,0.512,1.33,76,91,0,0,0,0,0,0,N/A,0,0,0,0,0,0,0,0,0
+22,American Black Duck,Both,Anas rubripes,Anatidae,48,63,0.72,1.64,88,96,0,0,0,0,0,0,N/A,0,0,1,0,0,1,0,0,0
+23,Mallard,Male,Anas platyrhynchos,Anatidae,50,65,0.72,1.58,81,98,0,0,0,0,0,0,N/A,0,1,1,0,1,1,1,1,0
+24,Mallard,Female,Anas platyrhynchos,Anatidae,50,65,0.72,1.58,81,98,0,0,0,0,0,0,N/A,1,1,1,0,0,1,0,1,0
+25,Mottled Duck,Both,Anas fulvigula,Anatidae,44,61,0.59,1.38,85,90,0,0,0,0,0,0,N/A,0,1,1,0,0,1,0,0,0
+26,Blue-Winged Teal,Male,Anas discors,Anatidae,36,41,0.23,0.545,56,62,0,0,0,0,0,0,N/A,1,1,1,0,0,0,0,1,0
+27,Blue-Winged Teal,Female,Anas discors,Anatidae,36,41,0.23,0.545,56,62,0,0,0,0,0,0,N/A,0,1,1,0,0,0,0,0,0
+28,Cinnamon Teal,Male,Anas cyanoptera,Anatidae,36,43,0.28,0.5,1000000000,1000000000,0,0,0,0,0,0,N/A,1,1,1,1,0,0,0,0,0
+29,Cinnamon Teal,Female,Anas cyanoptera,Anatidae,36,43,0.28,0.5,1000000000,1000000000,0,0,0,0,0,0,N/A,1,1,1,0,0,0,0,0,0
+30,Northern Shoveler,Male,Anas clypeata,Anatidae,44,51,0.4,0.82,70,80,0,0,1,1,0,0,similar to mallard,1,1,1,0,1,1,1,0,0
+31,Northern Shoveler,Female,Anas clypeata,Anatidae,44,51,0.4,0.82,70,80,0,0,1,1,0,0,similar to mallard,1,1,1,0,0,0,0,0,0
+32,Northern Pintail,Male,Anas acuta,Anatidae,59,76,0.45,1.36,80,95,0,0,0,0,0,0,N/A,1,1,1,0,0,0,0,0,0
+33,Northern Pintail,Female,Anas acuta,Anatidae,51,64,0.454,1.135,80,95,0,0,0,0,0,0,N/A,0,1,1,0,0,0,0,0,0
+34,Garganey,Male,Anas querquedula,Anatidae,1000000000,1000000000,1000000000,1000000000,1000000000,1000000000,0,0,0,0,0,0,Similar to pintail,1,1,1,0,0,0,0,1,0
+35,Garganey,Female,Anas querquedula,Anatidae,1000000000,1000000000,1000000000,1000000000,1000000000,1000000000,0,0,0,0,0,0,"Similar to pintail, common teal",0,1,1,0,0,0,0,1,0
+36,Green-Winged Teal,Male,Anas crecca,Anatidae,31,39,0.14,0.5,52,59,0,0,0,0,0,0,N/A,0,1,1,0,1,0,1,0,0
+37,Green-Winged Teal,Female,Anas crecca,Anatidae,31,39,0.14,0.5,52,59,0,0,0,0,0,0,N/A,0,1,1,0,0,0,1,0,0
+38,Canvasback,Male,Aythya valisineria,Anatidae,48,56,0.862,1.6,79,89,0,0,0,0,0,0,N/A,1,0,1,1,1,0,0,0,0
+39,Canvasback,Female,Aythya valisineria,Anatidae,48,56,0.862,1.6,79,89,0,0,0,0,0,0,N/A,0,1,1,0,0,0,0,0,0
+40,Redhead,Male,Aythya americana,Anatidae,42,54,0.63,1.5,75,79,0,0,0,0,0,0,N/A,1,0,1,1,1,0,0,0,0
+41,Redhead,Female,Aythya americana,Anatidae,42,54,0.63,1.5,75,79,0,0,0,0,0,0,N/A,0,1,1,0,0,0,0,0,0
+42,Ring-Necked Duck,Male,Aythya collaris,Anatidae,39,46,0.49,0.91,62,63,0,0,0,0,0,0,N/A,1,1,0,1,1,0,0,0,0
+43,Ring-Necked Duck,Female,Aythya collaris,Anatidae,39,46,0.49,0.91,62,63,0,0,0,0,0,0,N/A,0,1,1,0,0,0,0,0,0
+44,Trufted Duck,Male,Aythya fuligula,Anatidae,1000000000,1000000000,1000000000,1000000000,1000000000,1000000000,0,0,0,0,0,0,N/A,1,1,0,0,0,1,0,0,0
+45,Trufted Duck,Female,Aythya fuligula,Anatidae,1000000000,1000000000,1000000000,1000000000,1000000000,1000000000,0,0,0,0,0,0,N/A,0,0,1,0,0,1,0,0,0
+46,Greater Scaup,Male,Aythya marila,Anatidae,39,56,0.726,1.36,71,84,0,0,0,0,0,0,N/A,0,1,1,0,0,1,1,1,0
+47,Greater Scaup,Female,Aythya marila,Anatidae,39,56,0.726,1.36,71,84,0,0,0,0,0,0,N/A,0,1,1,0,0,1,0,1,0
+48,Lesser Scaup,Male,Aythya affinis,Anatidae,38,48,0.454,1.089,68,78,0,0,0,0,0,0,N/A,1,1,0,0,1,1,0,1,0
+49,Lesser Scaup,Female,Aythya affinis,Anatidae,38,48,0.454,1.089,68,78,0,0,0,0,0,0,N/A,0,1,1,0,0,1,0,1,0
+50,Harelquin Duck,Male,Histrionicus histrionicus,Anatidae,33,54,0.5,0.726,56,66,0,0,1,0,0,0,N/A,1,1,1,0,1,0,0,1,0
+51,Harelquin Duck,Female,Histrionicus histrionicus,Anatidae,33,54,0.5,0.726,56,66,0,0,0,0,0,0,N/A,0,1,1,0,0,0,0,0,0
+52,Surf Scoter,Male,Melanitta perspicillata,Anatidae,48,60,0.953,1.769,75,79,0,0,0,0,0,0,N/A,1,1,0,0,0,1,0,0,0
+53,Surf Scoter,Female,Melanitta perspicillata,Anatidae,48,60,0.953,1.769,75,79,0,0,0,0,0,0,N/A,1,1,1,1,0,0,0,0,0
+54,White-Winged Scoter,Male,Melanitta fusca,Anatidae,52,57,1.36,2.128,53,60,0,0,0,0,0,0,N/A,1,1,0,0,0,0,0,0,0
+55,White-Winged Scoter,Female,Melanitta fusca,Anatidae,50,53,0.95,1.95,45,56,0,0,0,0,0,0,N/A,0,1,1,0,0,0,0,0,0
+56,Black Scoter,Male,Melanitta americana,Anatidae,48,49,1,1.1,83,84,0,0,0,0,0,0,N/A,1,0,0,0,0,1,0,0,0
+57,Black Scoter,Female,Melanitta americana,Anatidae,43,45,0.97,0.98,83,84,0,0,0,0,0,0,N/A,0,0,1,0,1,1,0,0,0
+58,Long-Tailed Duck,Male,Clangula hyemalis,Anatidae,44,60,0.73,0.74,70,71,0,0,0,0,1,0,N/A,1,1,0,1,1,0,0,0,0
+59,Long-Tailed Duck,Female,Clangula hyemalis,Anatidae,44,60,0.73,0.74,70,71,0,0,0,0,0,0,N/A,1,1,1,0,1,0,0,0,0
+60,Bufflehead,Male,Bucephala albeola,Anatidae,32,40,0.27,0.55,54,55,0,0,0,0,0,0,N/A,1,1,0,0,0,0,1,0,1
+61,Bufflehead,Female,Bucephala albeola,Anatidae,32,40,0.27,0.55,54,55,0,0,0,0,0,0,N/A,1,1,0,0,1,0,0,0,0
+62,Common Goldeneye,Male,Bucephala clangula,Anatidae,45,52,0.888,1.4,77,83,0,0,0,0,0,0,N/A,1,1,0,0,0,1,1,0,0
+63,Common Goldeneye,Female,Bucephala clangula,Anatidae,40,50,0.5,1.128,75,77,0,0,0,0,0,0,N/A,1,1,1,0,1,1,0,0,0
+64,Barrow's Goldeneye,Male,Bucephala islandica,Anatidae,43,48,0.48,1.32,1000000000,1000000000,0,0,0,0,0,0,N/A,1,1,0,0,0,1,0,0,0
+65,Barrow's Goldeneye,Female,Bucephala islandica,Anatidae,43,48,0.48,1.32,1000000000,1000000000,0,0,0,0,0,0,N/A,0,1,1,0,0,1,0,0,0
+66,Hooded Merganser,Male,Lophodytes cucullatus,Anatidae,40,49,0.453,0.879,60,66,0,0,0,0,0,1,N/A,1,1,1,0,0,0,0,0,0
+67,Hooded Merganser,Female,Lophodytes cucullatus,Anatidae,39,45,0.4,0.879,59,63,0,0,0,0,0,1,N/A,0,0,1,0,0,1,0,0,0
+68,Common Merganser,Male,Mergus merganser,Anatidae,58,72,0.9,2.1,78,97,0,0,0,0,0,0,N/A,1,1,0,1,0,0,1,0,0
+69,Common Merganser,Female,Mergus merganser,Anatidae,58,72,0.9,2.1,78,97,0,0,0,0,0,0,N/A,0,1,0,1,1,1,0,0,0
+70,Red-Breasted Merganser,Male,Mergus serrator,Anatidae,51,62,0.8,1.35,70,86,0,0,0,0,0,0,Similar to common merganser,1,1,1,1,1,0,1,0,0
+71,Red-Breasted Merganser,Female,Mergus serrator,Anatidae,51,62,0.8,1.35,70,86,0,0,0,0,0,0,Similar to common merganser,0,0,1,1,1,0,0,0,0
+72,Ruddy Duck,Male,Oxyura jamaicensis,Anatidae,34,43,0.5,0.56,45,47,0,0,0,0,0,0,Blue bill(?),1,1,1,0,0,0,0,1,0
+73,Ruddy Duck,Female,Oxyura jamaicensis,Anatidae,34,43,0.5,0.56,45,47,0,0,0,0,0,0,N/A,1,1,1,0,0,0,0,0,0
+74,Scaled Quail,Both,Callipepla squamata,Odontophoridae,25,35,0.177,0.191,37,38,0,0,0,0,0,0,N/A,1,1,1,0,1,0,0,0,0
+75,Gambel's Quail,Both,Callipepla gambelii,Odontophoridae,24,25,0.16,0.2,34,36,0,0,0,0,0,1,N/A,1,1,1,1,1,0,0,0,0
+76,Northern Bobwhite,Both,Colinus virginianus,Odontophoridae,24,28,0.13,0.255,33,38,0,0,0,0,0,0,N/A,1,1,1,0,0,0,0,0,0
