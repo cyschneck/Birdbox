@@ -12,19 +12,19 @@ CREATE TABLE Similarity (Sim_ID INTEGER, Bird_ID_1 INTEGER, Bird_ID_2 INTEGER, B
 DROP TABLE IF EXISTS Filters;
 CREATE TABLE Filters (bird_id INTEGER, common_name VARCHAR(45), sex VARCHAR(45), scientific_name VARCHAR(45), family VARCHAR(45), length_lower FLOAT, length_upper FLOAT, body_mass_lower FLOAT, body_mass_upper FLOAT, wingspan_lower FLOAT, wingspan_upper FLOAT, NF_wing_bar VARCHAR(1), NF_long_neck VARCHAR(1), NF_colorful VARCHAR(1), NF_large_bill VARCHAR(1), NF_long_tail VARCHAR(1), NF_plumage VARCHAR(1), other VARCHAR(45), C_Black VARCHAR(1), C_White VARCHAR(1), C_Brown VARCHAR(1), C_Red VARCHAR(1), C_Grey VARCHAR(1), C_Orange_Yellow VARCHAR(1), C_Green VARCHAR(1), C_Blue VARCHAR(1), C_Purple VARCHAR(1));
 
-LOAD DATA LOCAL INFILE '/home/user/Dropbox/CSCI3308/Group_Project/csv_database/display_info.csv' #takes the file at this directory and puts it into the table below.  Since
+LOAD DATA LOCAL INFILE 'display_info.csv' #takes the file at this directory and puts it into the table below.  Since
 INTO TABLE Display_Info 									 #were using .csvs, it parses by the delimeter ',' and ignores the first line so
 FIELDS TERMINATED BY ','							 		 #we only get the data and dont have to deal with the headers where the data should
 IGNORE 1 LINES 									 		 #be.
 (Bird_ID,Common_Name,Text,Image,Color);
 
-LOAD DATA LOCAL INFILE '/home/user/Dropbox/CSCI3308/Group_Project/csv_database/similarity.csv'
+LOAD DATA LOCAL INFILE 'similarity.csv'
 INTO TABLE Similarity
 FIELDS TERMINATED BY ','
 IGNORE 1 LINES 
 (Sim_ID, Bird_ID_1, Bird_ID_2, Bird_1_Text, Bird_2_text);
 
-LOAD DATA LOCAL INFILE '/home/user/Dropbox/CSCI3308/Group_Project/csv_database/filter.csv'
+LOAD DATA LOCAL INFILE 'filter.csv'
 INTO TABLE Filters
 FIELDS TERMINATED BY ','
 IGNORE 1 LINES 
