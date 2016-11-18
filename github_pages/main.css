@@ -205,7 +205,6 @@ label {
 
 label:before {
     background-color: white;
-    color: white;
     content: " ";
     display: block;
     border-radius: 50%
@@ -230,11 +229,11 @@ label:before {
 
 :checked + label {
     /*border-color: #27ae60;*/
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 :checked + label img {
-    transform: scale(0.9);
+    transform: scale(0.5);
     z-index: -1;
 }
 
@@ -253,7 +252,7 @@ body img:hover {
 .size-selection {
     padding-top: 25px;
     padding-bottom: 50px;
-    background-color: #EEEEEE;
+    /*background-color: #EEEEEE;*/
 }
 
 /*color selection background and divider*/
@@ -266,7 +265,7 @@ body img:hover {
 .notable-features {
     padding-top: 25px;
     padding-bottom: 50px;
-    background-color: #EEEEEE;
+    /*background-color: #EEEEEE;*/
 }
 
 /*find button buffer*/
