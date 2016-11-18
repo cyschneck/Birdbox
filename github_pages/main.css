@@ -146,7 +146,7 @@ hr {
   display: block;
   height: 1px;
   border: 0;
-  border-top: 1px solid #C8C8C8;
+  border-top: 1px solid black;
   margin: 1em 0;
   padding: 0;
   margin-left: 58px;
@@ -160,17 +160,13 @@ input[type=text] {
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
-    padding: 12px 20px 12px 40px;
+    padding: 12px 20px 8px 25px;
     -webkit-transition: all 0.4s;
     transition: width all 0.4s;
 }
 
 input[type=text]:focus {
-  width: 55%;
-}
-
-input[type=text]:focus {
-  width: 55%;
+  width: 30%;
 }
 /*display the checkboxes: 'animation' that creates the the clean selection checkboxes: filters*/
 input[type="checkbox"][id^="Filter"]{
@@ -198,7 +194,7 @@ li {
 }
 
 label {
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
     padding: 10px;
     display: block;
     position: relative;
@@ -254,20 +250,20 @@ body img:hover {
 
 /*size selection background and divider*/
 .size-selection {
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 50px;
     background-color: #EEEEEE;
 }
 
 /*color selection background and divider*/
 .color-selection {
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 50px;
 }
 
 /*notable features background and divider*/
 .notable-features {
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 50px;
     background-color: #EEEEEE;
 }
@@ -305,7 +301,7 @@ body img:hover {
 }
 
 /* ###################### ABOUT PAGE ############################################### */
-body {
+.main-about {
   background:#3498db;
   overflow:hidden;
 }
@@ -315,6 +311,7 @@ body {
   width:320px;
   height:535px;
   background: url("about_icons/background.jpg");
+  filter: grayscale(75%);
   background-size: cover;
   background-position:center center;
   position:relative;
