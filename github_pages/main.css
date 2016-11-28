@@ -305,6 +305,15 @@ body img:hover {
   background:#3498db;
   overflow:hidden;
 }
+
+.main-about p {
+  /*font-size: 14px;
+  color: #fff;
+  text-align: center;
+  max-width: 500px;*/
+  background-color: yellow;
+}
+
 #card {
   overflow:hidden;
   text-align:center;
