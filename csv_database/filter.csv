@@ -118,3 +118,66 @@ bird_id,common_name,sex,scientific_name,family,length_lower,length_upper,body_ma
 117,American White Pelican,Both,Pelecanus erythrorhynchos,Pelecanidae,127,165,4.5,9,244,290,0,1,0,1,0,0,0,N/A,1,1,0,1,0,1,0,0,0
 118,Brown Pelican,Both,Pelecanus occidentalis,Pelecanidae,100,137,2,5,199,201,0,1,0,1,0,0,0,N/A,1,1,1,1,1,1,0,0,0
 119,American Bittern,Both,Botaurus lentiginosus,Ardeidae,60,85,0.37,0.5,91,93,0,0,0,1,0,0,0,N/A,0,1,1,0,1,1,0,0,0
+120,Least Bittern,Both,Ixobrychus exilis,Ardeidae,28,36,0.051,0.102,41,46,0,1,0,1,0,0,0,N/A,1,1,1,0,0,1,0,0,0
+121,Greater Blue Heron,Both,Ardea herodias,Ardeidae,97,137,2.1,2.5,167,201,0,1,0,1,0,0,1,N/A,1,1,0,0,1,1,0,0,0
+122,Great Egret,Both,Ardea alba,Ardeidae,94,104,0.99,1.1,131,145,0,1,0,1,0,0,1,Similar to Snowy Egret,0,1,0,0,0,1,0,0,0
+123,Snowy Egret,Both,Egretta thula,Ardeidae,56,66,0.36,0.38,99,101,0,1,0,1,0,0,1,Similar to Great Egret,1,1,0,0,0,1,0,0,0
+124,Little Blue Heron,Both,Egretta caerulea,Ardeidae,56,74,0.296,0.412,100,105,0,1,0,1,0,0,1,N/A,1,0,0,0,0,0,0,1,0
+125,Tricolored Heron,Both,Egretta tricolor,Ardeidae,60,70,0.414,0.416,94,96,0,1,0,1,0,0,1,N/A,1,1,0,1,1,1,0,0,0
+126,Reddish Egret,Both,Egretta rufescens,Ardeidae,70,80,0.7,0.85,1000000000,1000000000,0,1,0,1,0,0,1,N/A,1,0,1,1,0,0,0,0,0
+127,Reddish Egret (White Morph),Both ,Egretta rufescens,Ardeidae,70,80,0.7,0.85,1000000000,1000000000,0,1,0,1,0,0,1,N/A,0,1,0,1,0,0,0,0,0
+128,Cattle Egret,Both,Bubulcus ibis,Ardeidae,46,56,0.27,0.512,88,95,0,1,0,1,0,0,1,N/A,1,1,1,0,0,1,0,0,0
+129,Green Heron,Both ,Butorides virescens,Ardeidae,41,46,0.23,0.25,64,68,0,0,0,1,0,0,1,N/A,1,1,1,1,1,1,0,0,0
+130,Black-Crowned Night Heron,Both ,Nycticorax nycticorax,Ardeidae,56,66,0.727,1.014,115,118,0,0,0,1,0,0,1,N/A,1,0,0,1,1,1,0,0,0
+131,Yellow-Crowned night Heron,Both,Nyctanassa violacea,Ardeidae,55,70,0.65,0.8,1000000000,1000000000,0,1,0,1,0,1,1,N/A,1,1,0,1,1,1,0,0,0
+132,American White Ibis,Both,Eudocimus albus,Threskiornithidae,56,68,0.75,1.05,1000000000,1000000000,0,1,0,1,0,0,1,N/A,0,1,0,1,0,0,0,0,0
+133,Glossy Ibis,Both,Plegadis falcinellus,Threskiornithidae,48,66,0.5,0.8,1000000000,1000000000,0,1,1,1,0,0,1,Similar to White-Faced ibis,1,0,1,1,0,0,0,0,0
+134,White-Faced Ibis,Both,Plegadis chihi,Threskiornithidae,46,56,0.45,0.525,1000000000,1000000000,0,1,0,1,0,0,1,Similar to Glossy Ibis,0,0,1,1,1,0,0,0,0
+135,Roseate Spoonbill,Both,Platalea ajaja,Threskiornithidae,71,86,1.2,1.8,0.12,0.13,0,1,0,1,0,0,1,N/A,0,1,0,1,1,0,0,0,0
+136,Black Vulture,Both,Coragyps atratus,Cathartidae,60,68,1.6,2.2,137,150,0,0,0,0,0,0,0,N/A,1,1,0,1,0,0,0,0,0
+137,Turkey Vulture,Both ,Cathartes aura,Cathartidae,64,81,1.99,2.1,170,178,0,0,0,0,0,0,0,N/A,1,0,0,1,0,0,0,0,0
+138,Osprey,Both,Pandion haliaetus,Pandionidae,54,58,1.4,2,150,180,0,0,0,0,0,0,0,N/A,0,1,1,0,0,1,0,0,0
+139,Swallow-Tailed Kite,Both,Elanoides forficatus,Accipitridae,50,64,0.37,0.6,121,123,0,0,0,0,0,0,0,N/A,1,1,0,0,0,1,0,0,0
+140,Mississippi Kite,Both ,Ictinia mississippiensis,Accipitridae,34,37,0.216,0.339,1000000000,1000000000,0,0,0,0,0,0,0,N/A,1,1,0,1,1,0,0,0,0
+141,Bald Eagle,Both,Haliaeetus leucocephalus,Accipitridae,71,96,3,6.3,203,205,0,0,0,0,0,0,0,N/A,0,1,1,0,0,1,0,0,0
+142,Northern Harrier,Both,Circus cyaneus,Accipitridae,46,50,0.3,0.75,102,118,0,0,0,0,0,0,0,N/A,0,1,1,0,0,1,0,0,0
+143,Sharp-Shinned Hawk,Both,Accipiter striatus,Accipitridae,24,34,0.87,0.218,43,56,0,0,0,0,0,0,0,N/A,0,1,1,0,0,1,0,0,0
+144,Cooper's Hawk,Both,Accipiter cooperii,Accipitridae,37,39,0.22,0.41,62,90,0,0,0,0,0,0,0,N/A,0,1,1,1,1,1,0,0,0
+145,Northern Goshawk,Both,Accipiter gentilis,Accipitridae,53,64,0.631,1.365,103,117,0,0,0,0,0,0,0,N/A,1,1,1,1,0,1,0,0,0
+146,Common Black Hawk,Both,Buteogallus anthracinus,Accipitridae,43,53,0.92,0.94,1000000000,1000000000,0,0,0,0,0,0,0,N/A,1,0,1,0,0,1,0,0,0
+147,Harris' Hawk,Both,Parabuteo unicinctus,Accipitridae,46,59,0.515,0.88,103,119,0,0,0,0,0,0,0,N/A,0,1,1,1,0,1,0,0,0
+148,Red-Shouldered Hawk,Both,Buteo lineatus,Accipitridae,43,61,0.486,0.774,94,111,0,0,0,0,0,0,0,N/A,1,1,1,0,0,1,0,0,0
+149,Broad-Winged Hawk,Both,Buteo platypterus,Accipitridae,34,44,0.265,0.56,81,100,0,0,0,0,0,0,0,N/A,0,1,1,0,0,1,0,0,0
+150,Sawinson's Hawk,Both,Buteo swainsoni,Accipitridae,48,56,0.693,1.367,1000000000,1000000000,0,0,0,0,0,0,0,N/A,0,1,1,0,0,1,0,0,0
+151,Zone-Tailed Hawk,Both,Buteo albonotatus,Accipitridae,45,56,0.119,0.14,119,140,0,0,0,0,0,0,0,N/A,1,1,0,0,0,0,0,0,0
+152,Red-Tailed Hawk,Both,Buteo jamaicensis,Accipitridae,45,65,0.69,1.46,114,133,0,0,0,0,0,0,0,N/A,0,1,1,1,0,1,0,0,0
+153,Ferruginous Hawk,Both,Buteo regalis,Accipitridae,56,69,0.997,2.074,133,142,0,0,0,0,0,0,0,N/A,0,1,1,0,0,1,0,0,0
+154,Rough-Legged Hawk,Both,Buteo lagopus,Accipitridae,47,52,0.715,1.4,132,138,0,0,0,0,0,0,0,N/A,0,1,1,0,0,0,0,0,0
+155,Golden Eagle,Both,Aquila chrysaetos,Accipitridae,70,84,3,6.125,185,220,0,0,0,0,0,0,0,N/A,0,1,1,0,0,1,0,0,0
+156,Crested Caracara,Both,Caracara cheriway,Falconidae,49,58,1.05,1.3,119,121,0,0,0,0,0,0,1,N/A,1,1,1,1,0,1,0,0,0
+157,American Kestrel,Both,Falco sparverius,Falconidae,22,31,0.08,0.165,51,61,0,0,0,0,0,0,0,N/A,1,1,1,1,1,1,0,0,0
+158,Merlin,Both,Falco columbarius,Falconidae,21,30,0.16,0.24,53,68,0,0,0,0,0,0,0,N/A,1,1,0,0,1,1,0,0,0
+159,Gyrfalcon,Both,Falco rusticolus,Falconidae,48,64,0.8,2.1,122,124,0,0,0,0,0,0,0,N/A,0,1,1,0,0,1,0,0,0
+160,Peregrine Falcon,Both,Falco peregrinus,Falconidae,36,49,0.53,1.6,100,110,0,0,0,0,0,0,0,N/A,0,1,1,0,1,1,0,0,0
+161,Prairie Falcon,Both,Falco mexicanus,Falconidae,37,47,0.42,1.1,90,113,0,0,0,0,0,0,0,N/A,1,1,1,0,0,1,0,0,0
+162,Yellow Rail,Both,Coturnicops noveboracensis,Rallidae,13,18,0.041,0.068,28,32,0,0,0,0,0,0,0,N/A,1,0,1,0,0,1,0,0,0
+163,Black Rail,Both,Laterallus jamaicensis,Rallidae,10,15,0.0029,0.0029,22,28,0,0,0,0,0,0,0,N/A,1,0,1,1,1,0,0,0,0
+164,King Rail,Both,Rallus elegans,Rallidae,38,48,0.305,0.37,49,51,0,0,0,0,1,0,1,N/A,1,1,1,0,0,1,0,0,0
+165,Virginia Rail,Both,Rallus limicola,Rallidae,20,27,0.065,0.095,32,38,0,0,0,1,0,0,1,N/A,1,0,1,1,0,0,0,0,0
+166,Sora,Both, Porzana carolina,Rallidae,20,25,0.049,0.112,1000000000,1000000000,0,0,0,0,0,0,1,N/A,0,0,1,0,1,1,0,0,0
+167,Purple Gallinule,Both,Porphyrio martinica,Rallidae,36,37,0.208,0.288,54,56,0,0,1,0,0,0,1,N/A,1,1,0,1,1,1,1,1,0
+168,Common Gallinule,Both,Gallinula galeata,Rallidae,32,35,0.31,0.456,54,62,0,0,0,0,0,0,1,N/A,1,1,0,1,0,1,0,0,0
+169,American Coot,Both,Fulica americana,Rallidae,39.4,42.9,0.6,0.7,58.4,63.5,0,0,0,0,0,0,0,N/A,1,1,0,0,0,0,0,0,0
+170,Sandhill Crane,Both,Grus canadensis,Gruidae,119,121,3.4,4.9,199,201,0,1,0,1,0,0,1,N/A,0,1,1,1,1,0,0,0,0
+171,Whooping Crane,Both,Grus americana,Gruidae,149,150,6,7.8,228,230,0,1,0,1,0,0,1,N/A,1,1,0,1,0,0,0,0,0
+172,Black-Necked Stilt,Both,Himantopus mexicanus,Recurvirostridae,35,39,0.136,0.22,70,72,0,0,0,1,0,0,1,N/A,1,1,0,1,0,0,0,0,0
+173,American Avocet,Both,Recurvirostra americana,Recurvirostridae,43,47,0.275,0.35,70,72,0,0,0,1,0,0,1,N/A,0,1,1,1,0,0,0,0,0
+174,Black-Bellied Plover,Both,Pluvialis squatarola,Charadriidae,28,29,0.16,0.277,59,60,0,0,0,0,0,0,1,Similar to Golden-Plover,1,1,0,0,0,0,0,0,0
+175,American Golden-Plover,Both,Pluvialis dominica,Charadriidae,24,28,0.122,0.194,56,58,0,0,0,0,0,0,1,Similar to Black-Bellied Plover,0,1,1,0,0,0,0,0,0
+176,Snowy Plover,Both,Charadrius nivosus,Charadriidae,15,17,34,58,33,35,0,0,0,0,0,0,1,N/A,0,1,1,0,0,0,0,0,0
+177,Semipalmated plover,Both,Charadrius semipalmatus,Charadriidae,17,19,0.047,0.048,1000000000,1000000000,0,0,0,0,0,0,1,N/A,1,1,0,1,1,0,0,0,0
+178,Piping Plover,Both,Charadrius melodus,Charadriidae,17,18,0.043,0.063,1000000000,1000000000,0,0,0,0,0,0,0,N/A,1,1,0,0,1,1,0,0,0
+179,Killdeer,Both,Charadrius vociferus,Charadriidae,20,28,0.075,0.128,46,48,0,0,0,0,0,0,1,N/A,1,1,1,0,0,0,0,0,0
+180,Mountain Plover,Both,Charadrius montanus,Charadriidae,21,23,0.09,0.11,1000000000,1000000000,0,0,0,0,0,0,1,N/A,1,1,1,0,0,0,0,0,0
+181,Spotted Sandpiper,Both,Actitis macularia,Scolopacidae,18,20,0.034,0.05,37,40,0,0,0,0,0,0,1,N/A,0,1,1,0,0,1,0,0,0
+182,Solitary Sandpiper,Both,Tringa solitaria,Scolopacidae,19,23,0.031,0.065,1000000000,1000000000,0,0,0,1,0,0,1,N/A,0,1,1,0,0,1,0,0,0
