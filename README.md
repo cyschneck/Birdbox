@@ -86,7 +86,7 @@ Gmail and Skype (as needed)
 [Project Management and Tools](https://docs.google.com/document/d/1xpzpVcBUiLs5x0CFPeqe4GF4R-_lFdDdLvF7EngWghc/edit?usp=sharing)
 
 ## Milestone 3
-[Database Tools](https://docs.google.com/a/colorado.edu/document/d/1OJ8w0CWUQseFQOlSxhRqP-08dNkg5Pad8tyPuGBLT1w/edit?usp=sharing)
+[Database Tools](https://docs.google.com/document/d/1OJ8w0CWUQseFQOlSxhRqP-08dNkg5Pad8tyPuGBLT1w/edit?usp=sharing)
 
 ## Milestone 4
 [Market Analysis](https://docs.google.com/a/colorado.edu/document/d/1WOtqnDvGKDd28r9QWuC5iy7eUnJwTRTiGtcJExv2W8I/edit?usp=sharing)
@@ -94,4 +94,4 @@ Gmail and Skype (as needed)
 ![birdbox_market_infograph](https://cloud.githubusercontent.com/assets/22159116/19994667/21f2ca1c-a216-11e6-82a5-9086aa66962a.jpg)
 
 ## Milestone 5
-[Software Development Methodology in Practice with Videos](https://docs.google.com/a/colorado.edu/document/d/1aeBbb70VQABu3_GrKMpsbxju8cyQEHyDYFv7JORfumA/edit?usp=sharing)
+[Software Development Methodology in Practice with Videos](https://docs.google.com/document/d/1aeBbb70VQABu3_GrKMpsbxju8cyQEHyDYFv7JORfumA/edit?usp=sharingg)
