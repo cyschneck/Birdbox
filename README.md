@@ -1,6 +1,7 @@
 # CSCI-3308-Group-Project
 
 ## [Click Here for the Website](https://xuis.github.io/CSCI-3308-Group-Project/github_pages/)
+Note: Needs to run apache server to see results
 
 <img src="https://github.com/Xuis/CSCI-3308-Group-Project/blob/master/pics_readme/icon_upper.png" width="220">
 
