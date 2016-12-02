@@ -11,7 +11,7 @@ Nirdy
 
 ## Members
 
-Anthony Hauger, Rachel Pabelico, Will Harris, Cora Schneck, Joey Christee, Scott Young
+[Anthony Hauger](https://github.com/a-hauger), [Rachel Pabelico](https://github.com/rapa5960), [Will Harris](https://github.com/Xuis), [Cora Schneck](https://github.com/cschneck), [Joey Christee](https://github.com/jocr5685), [Scott Young](https://github.com/tontolon22)
 
 ## Project Description
 
