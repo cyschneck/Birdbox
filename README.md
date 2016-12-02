@@ -3,7 +3,8 @@
 ## [Click Here for the Website](https://xuis.github.io/CSCI-3308-Group-Project/github_pages/)
 Note: Needs to run apache server to see results
 
-<img src="https://github.com/Xuis/CSCI-3308-Group-Project/blob/master/pics_readme/icon_upper.png" width="220">
+![image](https://cloud.githubusercontent.com/assets/22159116/20854196/05f9ddb4-b8af-11e6-9156-c8c3847b8631.png)
+![image](https://cloud.githubusercontent.com/assets/22159116/20853922/b5ce3d3c-b8ac-11e6-8326-79362861baec.png)
 
 ## Team Name
 
