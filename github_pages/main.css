@@ -307,45 +307,44 @@ body img:hover {
 }
 
 .main-about p {
-  font-size: 18px;
-  /*color: #fff;
-  text-align: center;
-  max-width: 500px;
-  background-color: yellow;*/
+  font-size: 17px;
+  max-width: 1000px;
+  width: 50%;
+  margin: 0 auto;
 }
-
 
 .main-about img {
-    width: 30%;;
+    width: 100%;
     height: auto;
 }
+
+/*below is the code for the id cards based on http://codepen.io/riktar/pen/BjbgaO*/
 #card {
   overflow:hidden;
   text-align:center;
-  width:320px;
-  height:535px;
+  width:500px;
+  height:700px;
   background: url("about_icons/background.jpg");
-  filter: grayscale(75%);
+  filter: grayscale(50%);
   background-size: cover;
   background-position:center center;
   position:relative;
-  top:0; left:0; right:0; bottom:0;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
   margin:auto;
-  box-shadow:
-    0px 30px 30px -20px rgba(0,0,0,1),
-    inset 0 0 0 1000px rgba(134,178,214, 0.8);
   transition: all .4s cubic-bezier(.37,.26,.35,1)
 }
 #card:hover {
   box-shadow:
-    0px 30px 30px -20px rgba(0,0,0,.9),
-    inset 0 0 0 1000px rgba(67,52,109,.2);
+    inset 0 0 0 1000px rgba(52,152,219,0.5);
 }
 #card:hover #avatar {
   animation:none;
   box-shadow:0;
-  width:200px;
-  height:200px;
+  width:300px;
+  height:300px;
 }
 
 #card:hover #profile{
@@ -374,7 +373,8 @@ body img:hover {
 #avatar {
   transition: all .4s cubic-bezier(.37,.26,.35,1);
   animation: circleAn 4s infinite;
-  width:150px; height:150px;
+  width:250px;
+  height:250px;
   position:absolute;
   top:0; left:0; right:0; bottom:0;
   margin:auto;
