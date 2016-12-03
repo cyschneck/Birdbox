@@ -319,12 +319,18 @@ label:before {
     height: auto;
 }
 
+.about-banner img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
 /*below is the code for the id cards based on http://codepen.io/riktar/pen/BjbgaO*/
 #card {
   overflow:hidden;
   text-align:center;
-  width:500px;
-  height:700px;
+  width:400px;
+  height:600px;
   background: url("about_icons/background.jpg");
   filter: grayscale(50%);
   background-size: cover;
@@ -390,6 +396,9 @@ label:before {
 /* ###################### SUBMISSIONS PAGE ####################################################### */
 /*paragraph text for additions*/
 .additions p {
-  font-size: 16px;
+  font-size: 17px;
   text-align: center;
+  max-width: 1000px;
+  width: 50%;
+  margin: 0 auto;
 }
