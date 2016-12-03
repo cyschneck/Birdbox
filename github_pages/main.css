@@ -237,7 +237,8 @@ label:before {
     z-index: -1;
 }
 
-body img:hover {
+.image-hover-opacity img:hover {
+    transition: all .5s cubic-bezier(.37,.26,.35,1);
     opacity: 0.5;
 }
 
