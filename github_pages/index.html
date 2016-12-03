@@ -39,28 +39,26 @@
   <body>
 
     <div class="image-hover-opacity">
-    <div class="search-bar">
-      <!--<form action ="search.php" method="GET">-->
-        <input type="text" name="search" placeholder="Search">
+
+        <!--specific search function for the filters-->
+        <form action="TEMP_display.html" method="GET">
+         <div class="search-bar">
+         <!--<form action ="search.php" method="GET">THIS IS THE SCRIPT FOR PHP EDITED OUT FOR STATIC WEBSITE-->
+         <input type="text" name="search" placeholder="Search">
       </form>
     </div>
+
     <h4>Welcome to Birdbox, your one stop source for avian identification
     <br />This database has been populated from common Colorado bird, time to searching!
     <br />Choose from the options below to start searching for your sighting today
     <br /><br />Can't find what you are looking for?
     <br /><a href="submission_page.html">Submit a request today!</a></h4>
 
-  <!--specific search function for the filters-->
-  <div class="search-bar">
-      <!--<form action ="search.php" method="GET"> THIS IS THE SCRIPT FOR PHP EDITED OUT FOR STATIC WEBSITE-->
-      <form action="TEMP_display.html" method="GET">
-   </div>
-
-
       <div class="size-selection">
         <h2>Size Selection</h2>
         <hr>
         <h4><strong>What did you see? How big was it?</strong></h4>
+
         <ul>
             <li>
               <input name="bird_size" type="radio" id="FilterExtraSmall" value="extra_small" style="display:none;"/>
