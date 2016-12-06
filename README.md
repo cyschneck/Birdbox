@@ -93,7 +93,7 @@ Gmail and Skype (as needed)
 ## Milestone 4
 [Market Analysis](https://docs.google.com/a/colorado.edu/document/d/1WOtqnDvGKDd28r9QWuC5iy7eUnJwTRTiGtcJExv2W8I/edit?usp=sharing)
 
-![birdbox_market_infograph](https://cloud.githubusercontent.com/assets/22159116/19994667/21f2ca1c-a216-11e6-82a5-9086aa66962a.jpg)
+![birdbox_market_infograph](https://cloud.githubusercontent.com/assets/22159116/20938763/7fe8b922-bba9-11e6-8933-ffffd9032191.jpg)
 
 ## Milestone 5
 [Software Development Methodology in Practice with Videos](https://docs.google.com/document/d/1aeBbb70VQABu3_GrKMpsbxju8cyQEHyDYFv7JORfumA/edit?usp=sharingg)
