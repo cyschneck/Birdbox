@@ -115,3 +115,15 @@ Gmail and Skype (as needed)
 
 ## Milestone 5
 [Software Development Methodology in Practice with Videos](https://docs.google.com/document/d/1aeBbb70VQABu3_GrKMpsbxju8cyQEHyDYFv7JORfumA/edit?usp=sharingg)
+
+## Milestone 6
+Final Presentation
+![image](https://cloud.githubusercontent.com/assets/22159116/20951514/6d1a993e-bbe3-11e6-8602-ea16cf35535e.png)
+![image](https://cloud.githubusercontent.com/assets/22159116/20951530/8ae222d4-bbe3-11e6-8fe1-d12d4d030009.png)
+![image](https://cloud.githubusercontent.com/assets/22159116/20951548/aebd13d0-bbe3-11e6-8381-3a7411c09c84.png)
+![image](https://cloud.githubusercontent.com/assets/22159116/20951570/c6330a2e-bbe3-11e6-8105-af7baab5ca9a.png)
+![image](https://cloud.githubusercontent.com/assets/22159116/20951581/df40e50e-bbe3-11e6-89bf-a1f185e05311.png)
+![image](https://cloud.githubusercontent.com/assets/22159116/20951592/f1cf0566-bbe3-11e6-979d-510a325991f7.png)
+
+## Milestone 7
+[Project Report](https://docs.google.com/document/d/1ORVPZUUmlGeYx82GGDmH_Jshq1JYFlyNv77IKSpY3kQ/edit?usp=sharing)
