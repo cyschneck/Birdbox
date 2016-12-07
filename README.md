@@ -6,6 +6,24 @@ Note: Needs to run apache server to see results
 [![image](https://cloud.githubusercontent.com/assets/22159116/20854196/05f9ddb4-b8af-11e6-9156-c8c3847b8631.png)](https://xuis.github.io/CSCI-3308-Group-Project/github_pages/)
 [![image](https://cloud.githubusercontent.com/assets/22159116/20853922/b5ce3d3c-b8ac-11e6-8326-79362861baec.png)](https://xuis.github.io/CSCI-3308-Group-Project/github_pages/)
 
+### Steps to run on Apache HTTP Server
+1. sudo apt-get install mysql-server
+2. Move to the project directory e.g. ..../CSCI-3308-Group-Project/ in the terminal
+3. cd csv_database
+4. sudo mysql -u root -p
+  * CREATE DATABASE Birdbox;
+  * use Birdbox;
+  * source Birdbox_Database_Creation.sql
+5. quit
+6. cd ..
+7. sudo apt-get install php7.0-cli
+8. sudo apt-get install php-mysql
+9. sudo apt-get install apache2
+10. sudo apt-get install libapache2-mod-php
+11. sudo cp -r github_pages/* /var/www/html/
+12. sudo services apache2 restart
+13. Open browser and go to "localhost"
+
 ## Team Name
 
 Nirdy
